@@ -12,7 +12,7 @@ Use Linux, Python 3.11 and a CUDA-capable GPU with bfloat16 support. The experim
 
 ~~~bash
 python3.11 -m venv .venv
-source .venv/bin/activate
+source environment/activate.sh
 pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ~~~
