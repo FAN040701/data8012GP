@@ -103,12 +103,14 @@ def main():
     models=sub.add_parser('baseline')
     models.add_argument('--kind',choices=['2d','2p5d','3d'],required=True)
     models.add_argument('--seed',type=int,choices=[11,22,33],default=11)
+    sub.add_parser('architecture', help='Summarize all nine original architecture fits, including directional HD95')
     sub.add_parser('analyze')
     for name in ['controls','offsets','sensitivity']:
         sub.add_parser(name).add_argument('--seed',type=int,choices=[11,22,33,44,55,66],required=True)
     args=parser.parse_args()
     if args.action=='prepare': prepare(args.source,args.workers)
     elif args.action=='baseline': baseline(args.seed,args.kind)
+    elif args.action=='architecture': run('proposal_quality.py')
     elif args.action=='controls': controls(args.seed)
     elif args.action=='offsets': offsets(args.seed)
     elif args.action=='sensitivity':

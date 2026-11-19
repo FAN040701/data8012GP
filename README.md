@@ -24,7 +24,7 @@ python src/course_workflow.py prepare --source /path/to/extracted-directory
 python src/course_workflow.py baseline --kind 2p5d --seed 11
 ~~~
 
-The second command trains and evaluates one baseline. Use `2d`, `2p5d` and `3d` with seeds 11, 22 and 33 for the architecture comparison. For the complete planar study, run the following on a prepared checkout:
+The second command trains and evaluates one baseline. Use `2d`, `2p5d` and `3d` with seeds 11, 22 and 33 for the architecture comparison, then run `python src/course_workflow.py architecture` to recompute Dice and directional HD95 from the nine sets of native predictions. For the complete planar study, run the following on a prepared checkout:
 
 ~~~bash
 for seed in 11 22 33 44 55 66; do

@@ -68,8 +68,15 @@ def main():
             print('Patients checked',i,'/',len(cases),flush=True)
     raw=pd.concat([pd.read_csv(OUT/'cases'/f'{case}.csv') for case in cases])
     keys=['case','kind','seed','factor','organ']
-    old=pd.read_csv(ROOT/'results/analysis/all_organ_metrics.csv')
-    old=old[old.kind.isin(KINDS)]
+    archive = ROOT/'results/analysis/all_organ_metrics.csv'
+    if archive.is_file():
+        old = pd.read_csv(archive)
+        old = old[old.kind.isin(KINDS)]
+    else:
+        old = pd.concat([
+            pd.read_csv(ROOT/'results/runs'/f'{kind}_seed{seed}'/'metrics.csv')
+            for kind in KINDS for seed in SEEDS
+        ], ignore_index=True)
     pair=raw.merge(old,on=keys,validate='one_to_one',suffixes=('','_old'))
     assert len(pair)==len(raw)==len(old)==4320
     assert np.allclose(pair.dice,pair.dice_old,atol=1e-12,equal_nan=True)
