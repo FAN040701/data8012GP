@@ -28,3 +28,5 @@ python src/final_axial_errors.py summarize
 The fit and evaluation scripts write weights, native predictions and per-organ records under `results/`. The public tables contain summary statistics; acquire the labelled scans from the original data release.
 
 A clean build reproduced all 760 input and label arrays for the 200 cases in the release manifest. Independent seed-11 fits of all three architectures and one asymmetric layout changed mean degraded-input Dice by +0.05 to +1.03 percentage points. The training code uses cuDNN autotuning and mixed precision. [Refit measurements](results_summary/reproduction_models.json)
+
+Running the portable evaluator on two frozen adjacent-slice controls (plain, seed 66 and augmented, seed 11) reproduced all 640 organ Dice scores and predicted voxel counts. [Control evaluation checks](results_summary/reproduction_controls.json)

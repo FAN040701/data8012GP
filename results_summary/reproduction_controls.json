@@ -1,0 +1,24 @@
+[
+  {
+    "arm": "context_aug",
+    "seed": 11,
+    "patients": 40,
+    "factors": [
+      1.0,
+      3.0
+    ],
+    "organ_scores": 320,
+    "maximum_absolute_dice_difference": 0.0
+  },
+  {
+    "arm": "context",
+    "seed": 66,
+    "patients": 40,
+    "factors": [
+      1.0,
+      3.0
+    ],
+    "organ_scores": 320,
+    "maximum_absolute_dice_difference": 0.0
+  }
+]
