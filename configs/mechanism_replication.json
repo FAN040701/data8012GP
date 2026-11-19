@@ -1,0 +1,26 @@
+{
+  "scope": "Prospectively fixed patient-holdout replication within AMOS after the previous 200 cases have been used. Same fitting patients and frozen existing models; not external-site or independent-training replication.",
+  "patients": 40,
+  "selection_seed": 2026111504,
+  "selection": "Uniform random sample without replacement from labelled official training CT patients absent from every prior fitting, development, evaluation and processed-data set. Freeze IDs before downloading images or inspecting new outcomes. No replacement based on performance.",
+  "conditions": [1, 3],
+  "seeds": [11, 22, 33],
+  "budget": 40000,
+  "primary": {
+    "contrast": "(context_aug-repeat_aug)-(context-repeat)",
+    "condition": 3,
+    "metric": "Original-acquisition-grid patient macro Dice across reference-present liver, spleen and two kidneys, averaged across three seed-specific scores",
+    "models": "Existing continuation 40k development-selected checkpoints, hash-frozen before new patient outcome inspection",
+    "interval": "10000 paired-patient percentile bootstrap replicates; 95% interval; bootstrap seed 2026111504",
+    "analysis": "Analyze all 40 cases once all four arms and all seeds complete. No interim outcome analysis, pooling to obtain significance, optional stopping or new checkpoint selection. Retain failures under the original metric convention."
+  },
+  "secondary": {
+    "arms": ["slope", "curvature", "slope_aug", "curvature_aug"],
+    "contrasts": "Same complete component contrast family as configs/mechanism.json, cohort reported separately",
+    "interpretation": "Exploratory intervals without multiplicity correction. The new component models use the same unchanged 80/20 fit/development cohort."
+  },
+  "data_integrity": "Official archive member CRC32, SHA256, raw image-label geometry, disjoint identifiers and duplicate image hashes against all prior 200 cases",
+  "missingness": "No performance-based exclusions. Report reference-absent organs separately using the fixed original conventions. Stop and investigate failed downloads or invalid geometry rather than silently substitute patients.",
+  "deadline_utc": "2026-11-15T14:04:06+00:00",
+  "report_generated": false
+}

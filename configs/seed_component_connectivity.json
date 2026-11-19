@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-11-15T16:43:36.650451+00:00",
+  "scope": "Exploratory sensitivity check after observing six-connected component results; specified before any26-connected results.",
+  "patients": "All40 replication cases",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "arms": [
+    "repeat",
+    "context",
+    "repeat_aug",
+    "context_aug"
+  ],
+  "condition": "f3 best-development checkpoints",
+  "rule": "Retain largest predicted component separately per target using all26 native-grid neighbors (faces,edges,corners); deterministic first raster component on ties; no reference use for component selection. Compare with already-fixed six-neighbor results.",
+  "interpretation": "Tests sensitivity to diagonal connectivity, not physical or anatomical correctness; cannot use this test to replace the original metric or select a postprocessing rule.",
+  "report_generated": false
+}

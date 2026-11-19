@@ -1,0 +1,8 @@
+{
+  "candidates": ["mid","far","near_far","far_near"],
+  "rule": "Select the new offset policy with the highest mean of the best f1 development Dice across seeds 11,22,33 in augmented training; deterministic tie break by candidate order. Use no test outcome in the choice.",
+  "new_seeds": [44,55,66],
+  "arms": ["selected_plain","selected_aug"],
+  "reference": "Existing matched narrow baseline for each seed. Report new3 separately and all6. These are repeated fits on already observed patients.",
+  "primary_repeat": "Selected minus narrow under f3 augmented training; also show unaugmented, f1, directions by seed and paired organ error counts."
+}

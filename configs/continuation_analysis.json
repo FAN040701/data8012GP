@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-11-15T06:46:57.962499+00:00",
+  "before_new_test_evaluation": true,
+  "primary_unchanged_from": "configs/continuation.json",
+  "additional_uncertainty_sensitivity": "Crossed bootstrap resamples the same matched seed indices across all arms and the same patient indices across all arms; only three seed clusters, so exploratory",
+  "replicates": 10000,
+  "bootstrap_seed": 2026111501,
+  "no_effect_size_or_significance_based_analysis_selection": true
+}

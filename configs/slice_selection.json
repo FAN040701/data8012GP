@@ -1,0 +1,11 @@
+{
+  "offsets": {"near_far": [-1,0,3], "far_near": [-3,0,1], "mid": [-2,0,2], "far": [-3,0,3]},
+  "spacing_mm":3, "augmentation":[false,true], "seeds":[11,22,33], "steps":40000,
+  "training":"80 fitting, 20 development. Match the 40k planar protocol, seed initialization and sampling trace. Channel 2 always contains the centre. Validation uses f1 every 2000 steps.",
+  "test_split":"data/metadata/mechanism_replication/split.json", "factors":[1,3],
+  "reference":"Prior 40k +/-3mm, same 40 observed replication patients, seeds and augmentation settings.",
+  "primary":"At f3 with augmentation, average of both mirrored mixed-offset models' patient scores minus the symmetric +/-6mm model. This matches total span and mean absolute distance. Average scores, not masks.",
+  "secondary":"Mirror direction; each setting minus +/-3mm; f3-f1 changes; augmentation interactions; organ Dice. Paired crossed patient-seed bootstrap, 10000 draws, seed 20261119. Exploratory, unadjusted.",
+  "proposal_quality":"Original test40, f1/f2/f3, single-channel 2D, conventional 2.5D, 3D; native 6-connected boundaries, max directed HD95, organ-equal overall Dice, three paired contrasts.",
+  "latency":"Single H100, original seed11 20k models, f1, original test40, decoded raw CPU volume to native CPU labels; five dev warmups and three rotated rounds. Tune batching on development data alone. No memory endpoint."
+}

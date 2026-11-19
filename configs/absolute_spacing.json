@@ -1,0 +1,15 @@
+{
+  "scope": "Sequential within-patient synthetic-resolution diagnostic, specified before its new outcomes. Addresses scanner/site confounding in the previous observational spacing groups.",
+  "patients": "All patients with native z spacing <=2.5 mm in the original40 and prior fresh20 cohorts; no new replication40 patients included",
+  "target_sampling_mm": [6.0, 15.0],
+  "arms": ["repeat", "context", "repeat_aug", "context_aug"],
+  "seeds": [11, 22, 33],
+  "models": "Existing frozen continuation 40k development-selected checkpoints; no retraining",
+  "preprocessing": "Native-z Gaussian sigma=.5*sqrt((target/native_spacing)^2-1), truncate 3, nearest boundary. Linear sampling onto a coarse grid with the target physical spacing, phase aligned to native origin; extend last retained plane; identical common 3-mm resampling and HU normalization. Fractional sampling ratios require linear interpolation on the coarse grid.",
+  "controls": "On every prior 5-mm native-spacing patient, target=15 mm must reproduce the existing f3 float16 input exactly. Retain the central image condition equally for repeated and contextual models. Native labels unchanged.",
+  "contrast": "Within the same thin-acquisition patients, compare context-by-augmentation at target15 minus target6; also show all four model losses and context gains at both targets",
+  "metrics": "Native-grid patient macro Dice and HD95; common 9-mm scan-interior Dice sensitivity analysis",
+  "statistics": "Average three seed-specific patient metrics; 10000 paired patient bootstrap, seed 2026111506; all intervals exploratory, unadjusted. Patient-matched intervention holds patient/scanner fixed but does not reproduce all real acquisition changes.",
+  "interpretation": "Tests whether more severe absolute through-plane information loss can change context/augmentation behavior within the same cases. It cannot establish that native scanner spacing alone explains the prior between-group association.",
+  "report_generated": false
+}

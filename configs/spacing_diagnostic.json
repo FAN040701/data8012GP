@@ -1,0 +1,48 @@
+{
+  "freeze_utc": "2026-11-15T08:59:36.536567+00:00",
+  "scope": "Exploratory; specified before viewing continuation test accuracy, after old-session accuracy was available. No model selection or primary-endpoint changes.",
+  "cohort": "original40_exploratory",
+  "fresh20_used": false,
+  "budget": 40000,
+  "arms": [
+    "repeat",
+    "context",
+    "repeat_aug",
+    "context_aug"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "factors": [
+    1,
+    3
+  ],
+  "strata": {
+    "thin": "native z spacing <= 2.5 mm plus 1e-4 mm tolerance",
+    "thick": "native z spacing > 2.5 mm plus 1e-4 mm tolerance"
+  },
+  "expected_patients": {
+    "thin": 13,
+    "thick": 27
+  },
+  "contrasts": [
+    "context_without_aug",
+    "context_with_aug",
+    "context_x_augmentation"
+  ],
+  "conditions": [
+    "f1",
+    "f3",
+    "f3_minus_f1"
+  ],
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 2026111501,
+    "within_stratum": "paired patient bootstrap after averaging matched seed metrics",
+    "between_strata": "independently resample patients within each stratum; thick minus thin"
+  },
+  "interpretation_limit": "Native spacing is observational and correlated with scanner, site and case mix. Factor 3 corresponds to different physical spacing by stratum. Estimates are exploratory, unadjusted and do not identify a causal effect of acquisition spacing. All prespecified contrasts will be retained.",
+  "outputs": "CSV and JSON only; no report"
+}

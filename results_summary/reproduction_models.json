@@ -1,0 +1,95 @@
+{
+  "results/runs/2d_seed11": {
+    "native_predictions": 120,
+    "organ_scores": 480,
+    "original_best": 20000,
+    "fresh_best": 20000,
+    "absolute_max_organ_difference": 0.07781571378311647,
+    "original_dice_by_factor": {
+      "1": 0.922388686298388,
+      "2": 0.9012243416296105,
+      "3": 0.8726163135400894
+    },
+    "fresh_dice_by_factor": {
+      "1": 0.920881495318978,
+      "2": 0.9024855900978471,
+      "3": 0.8749797299970415
+    },
+    "same_initialization": true,
+    "same_training_steps": true,
+    "mean_paired_delta_by_factor": {
+      "1": -0.0015071909794099753,
+      "2": 0.0012612484682365608,
+      "3": 0.002363416456952249
+    }
+  },
+  "results/runs/2p5d_seed11": {
+    "native_predictions": 120,
+    "organ_scores": 480,
+    "original_best": 18000,
+    "fresh_best": 20000,
+    "absolute_max_organ_difference": 0.3669822337572087,
+    "original_dice_by_factor": {
+      "1": 0.9150631567532785,
+      "2": 0.8952002790222926,
+      "3": 0.8632605860343607
+    },
+    "fresh_dice_by_factor": {
+      "1": 0.9231050011369921,
+      "2": 0.9024511000117375,
+      "3": 0.8716074745957128
+    },
+    "same_initialization": true,
+    "same_training_steps": true,
+    "mean_paired_delta_by_factor": {
+      "1": 0.008041844383713557,
+      "2": 0.007250820989444894,
+      "3": 0.008346888561351988
+    }
+  },
+  "results/runs/3d_seed11": {
+    "native_predictions": 120,
+    "organ_scores": 480,
+    "original_best": 18000,
+    "fresh_best": 20000,
+    "absolute_max_organ_difference": 0.22684522227034898,
+    "original_dice_by_factor": {
+      "1": 0.9362386170566686,
+      "2": 0.9150473074876038,
+      "3": 0.8790251702810383
+    },
+    "fresh_dice_by_factor": {
+      "1": 0.9356264477382258,
+      "2": 0.9149616256250359,
+      "3": 0.8795746253550722
+    },
+    "same_initialization": true,
+    "same_training_steps": true,
+    "mean_paired_delta_by_factor": {
+      "1": -0.0006121693184428275,
+      "2": -8.568186256774357e-05,
+      "3": 0.0005494550740339967
+    }
+  },
+  "results/slice_selection/runs/near_far_seed11": {
+    "native_predictions": 80,
+    "organ_scores": 320,
+    "original_best": 38000,
+    "fresh_best": 38000,
+    "absolute_max_organ_difference": 0.16787759292492,
+    "original_dice_by_factor": {
+      "1": 0.9085399152479784,
+      "3": 0.8498079244761959
+    },
+    "fresh_dice_by_factor": {
+      "1": 0.917052989454852,
+      "3": 0.8600792010708153
+    },
+    "same_initialization": true,
+    "same_training_steps": true,
+    "mean_paired_delta_by_factor": {
+      "1": 0.008513074206873548,
+      "3": 0.010271276594619447
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "Post hoc within-patient diagnostic motivated by the six frozen case illustrations; not an independent confirmation endpoint",
+  "cohort": "All prior fresh20 patients, no selection or exclusions based on phase results",
+  "factor": 3,
+  "new_phases_native_voxels": [1, 2],
+  "baseline_phase": 0,
+  "arms": ["repeat", "context", "repeat_aug", "context_aug"],
+  "seeds": [11, 22, 33],
+  "models": "Existing frozen continuation 40k best development checkpoints",
+  "intervention": "Identical Gaussian blur, factor-3 sampling distance and common 3-mm model grid; change only the native-z sampling origin by 1 or 2 original slices. Affine origin follows the selected phase. Extend the first and final retained planes to cover the acquired field of view.",
+  "control": "Regenerate phase 0 using the original implementation and require exact float16 input-array agreement. Original phase-0 native predictions reused unchanged.",
+  "metrics": "Original-grid Dice/HD95 for all four organs, all phases and seeds; extra Dice restricted to the common interior excluding 9 mm from both scan ends as a boundary sensitivity check",
+  "analyses": "All phase-minus-zero paired effects, context-by-augmentation per phase, per-patient and per-organ phase range. Three seeds averaged within patient; 10000 patient bootstrap, seed 2026111505. All analyses exploratory and unadjusted.",
+  "interpretation": "A controlled acquisition-sampling alignment sensitivity test; phase-dependent error is not a causal explanation for every original patient difference. End extension changes near the scan boundaries and is audited separately.",
+  "report_generated": false
+}

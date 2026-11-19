@@ -1,0 +1,39 @@
+{
+  "session_start_utc": "2026-11-15T10:34:06+00:00",
+  "deadline_utc": "2026-11-15T14:04:06+00:00",
+  "scope": "Sequential exploratory mechanism study informed by all previous results. No cohort is a newly untouched confirmation set. Preserve every previous result and generate no report.",
+  "seeds": [11, 22, 33],
+  "steps": 40000,
+  "patch": [32, 128, 128],
+  "width": 16,
+  "lr": 0.0003,
+  "val_every": 2000,
+  "new_arms": ["slope", "curvature", "slope_aug", "curvature_aug"],
+  "reused_arms": ["repeat", "context", "repeat_aug", "context_aug"],
+  "input_decomposition": {
+    "notation": "l,c,r denote the previous, centre and next 3-mm common-grid slices after the existing intensity augmentation",
+    "s": "(r-l)/2",
+    "k": "(l+r)/2-c",
+    "full": "[c+k-s,c,c+k+s] = [l,c,r]",
+    "slope": "[c-s,c,c+s]",
+    "curvature": "[c+k,c,c+k] = [(l+r)/2,c,(l+r)/2]",
+    "repeat": "[c,c,c]",
+    "clipping": "No additional clipping: preserve the exact component intervention. Quantify out-of-[0,1] values as a representation limitation.",
+    "interpretation": "Retrained input-component ablations, not proof of a physiological mechanism. Input distribution, boundary padding and optimization may mediate effects. All arms retain the identical central slice and network capacity."
+  },
+  "training": "Identical fitting/development patients, initialization, patch schedule, mild intensity augmentation, optimizer and 40k cosine schedule to previous continuation. Degradation augmentation remains factors 1/2/3 with probabilities .5/.25/.25. Select best f1 development model-grid patient Dice, earliest tie.",
+  "evaluation_conditions": {"prior_fresh20": [1, 3, 4], "original40_exploratory": [1, 3]},
+  "contrasts": ["slope-repeat", "curvature-repeat", "context-slope", "context-curvature", "context-slope-curvature+repeat", "augmentation differences of all five contrasts"],
+  "statistics": "Native-grid patient macro Dice and HD95. Separate cohorts. Average the three seed-specific scores within each patient, then 10000 paired-patient bootstrap replicates; show crossed patient/seed bootstrap and every seed. All intervals exploratory, no multiplicity-adjusted confirmation or test-based checkpoint selection.",
+  "bootstrap_seed": 2026111503,
+  "case_study": {
+    "source": "Previous fresh20 40k f3 context-by-augmentation patient interaction; freeze selection before looking at images",
+    "patients": "Two largest positive effects, two most negative effects, and two closest-to-zero effects; unique cases, ties by case ID",
+    "organ": "Largest absolute organ-level interaction averaged across seeds, ties by existing organ order",
+    "visual_seed": 11,
+    "slices": "One axial slice with largest reference-organ area and one axial slice with largest total FP+FN across the four original planar arms; retain both unless identical",
+    "quantification": "For all 60 prior evaluated patients, four original planar arms, three seeds, f1/f3: organ Dice, FP/FN volumes, recall/precision, confusion counts and superior/inferior versus middle organ extent errors. Save every case, not only selected examples.",
+    "interpretation": "Post hoc illustrative cases, not representative frequency estimates. All-patient summaries provide the frequency context."
+  },
+  "report_generated": false
+}

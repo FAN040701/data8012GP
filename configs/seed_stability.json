@@ -1,0 +1,168 @@
+{
+  "patch": [
+    32,
+    128,
+    128
+  ],
+  "width": 16,
+  "lr": 0.0003,
+  "val_every": 2000,
+  "long_steps": 40000,
+  "short_steps": 20000,
+  "augmentation": {
+    "factors": [
+      1,
+      2,
+      3
+    ],
+    "probabilities": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "unchanged_from_original": true
+  },
+  "start_utc": "2026-11-15T15:45:57+00:00",
+  "deadline_utc": "2026-11-15T17:45:57+00:00",
+  "freeze_utc": "2026-11-15T15:49:32.037956+00:00",
+  "old_seeds": [
+    11,
+    22,
+    33
+  ],
+  "new_seeds": [
+    44,
+    55,
+    66
+  ],
+  "arms": [
+    "repeat",
+    "context",
+    "repeat_aug",
+    "context_aug"
+  ],
+  "new40_ids": [
+    "amos_0024",
+    "amos_0025",
+    "amos_0045",
+    "amos_0052",
+    "amos_0067",
+    "amos_0071",
+    "amos_0077",
+    "amos_0078",
+    "amos_0111",
+    "amos_0137",
+    "amos_0143",
+    "amos_0159",
+    "amos_0160",
+    "amos_0166",
+    "amos_0170",
+    "amos_0172",
+    "amos_0175",
+    "amos_0184",
+    "amos_0185",
+    "amos_0192",
+    "amos_0198",
+    "amos_0199",
+    "amos_0212",
+    "amos_0224",
+    "amos_0239",
+    "amos_0249",
+    "amos_0263",
+    "amos_0264",
+    "amos_0276",
+    "amos_0294",
+    "amos_0332",
+    "amos_0353",
+    "amos_0366",
+    "amos_0379",
+    "amos_0383",
+    "amos_0387",
+    "amos_0398",
+    "amos_0400",
+    "amos_0404",
+    "amos_0406"
+  ],
+  "prior20_ids": [
+    "amos_0018",
+    "amos_0029",
+    "amos_0070",
+    "amos_0120",
+    "amos_0128",
+    "amos_0136",
+    "amos_0167",
+    "amos_0200",
+    "amos_0207",
+    "amos_0247",
+    "amos_0255",
+    "amos_0278",
+    "amos_0292",
+    "amos_0304",
+    "amos_0310",
+    "amos_0313",
+    "amos_0316",
+    "amos_0334",
+    "amos_0342",
+    "amos_0377"
+  ],
+  "spacing_ids": [
+    "amos_0204",
+    "amos_0206",
+    "amos_0207",
+    "amos_0216",
+    "amos_0218",
+    "amos_0223",
+    "amos_0228",
+    "amos_0247",
+    "amos_0255",
+    "amos_0278",
+    "amos_0283",
+    "amos_0287",
+    "amos_0290",
+    "amos_0304",
+    "amos_0309",
+    "amos_0310",
+    "amos_0313",
+    "amos_0316",
+    "amos_0333",
+    "amos_0339",
+    "amos_0356"
+  ],
+  "primary": {
+    "cohort": "new40_replication",
+    "factor": 3,
+    "contrast": "(context_aug-repeat_aug)-(context-repeat)",
+    "metric": "Native-grid reference-present organ mean Dice per patient; average model scores, not model ensembles",
+    "new_seeds_separately_reported": true,
+    "six_seed_summary": "Exploratory sequential precision extension on the same already-observed patients, not fresh patient confirmation",
+    "uncertainty": [
+      "paired patient bootstrap with seeds fixed",
+      "crossed resampling of patients and training seeds",
+      "seed-only t interval conditional on these patients"
+    ],
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 2026111508,
+    "success_threshold": "No binary post-hoc success threshold; show effect and all prespecified intervals including negative or inconclusive outcomes."
+  },
+  "secondary": {
+    "conditions": [
+      1,
+      3
+    ],
+    "cohorts_kept_separate": true,
+    "controlled_spacing": [
+      6,
+      15
+    ],
+    "interior_margin_mm": 9,
+    "checkpoint_sensitivity": "Evaluate exactly step40000 on replication40 f3 for all six seeds; compare with development-selected best. Never choose between selection rules using test scores.",
+    "intervals": "Exploratory unadjusted; old3, new3 and all6 shown separately"
+  },
+  "checkpoint_selection": "Maximum f1 development patient macro Dice on the common 3-mm model grid every2000 updates; earliest tie; unchanged from prior runs",
+  "no_test_tuning": true,
+  "no_report_generation": true,
+  "planned_new_training_runs": 12,
+  "planned_new_training_updates": 480000,
+  "planned_best_predictions": 1944,
+  "planned_last_predictions": 960
+}

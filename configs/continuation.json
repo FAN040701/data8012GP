@@ -1,0 +1,99 @@
+{
+  "protocol_version": 1,
+  "freeze_utc": "2026-11-15T06:42:19.094563+00:00",
+  "deadline_utc": "2026-11-15T09:37:40+00:00",
+  "phase": "Sequential experiment informed by the previous 80 evaluated patients; remaining 20 official validation CT patients reserved for fresh confirmation",
+  "training_patients": 80,
+  "development_patients": 20,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "patch": [
+    32,
+    128,
+    128
+  ],
+  "width": 16,
+  "lr": 0.0003,
+  "val_every": 2000,
+  "long_steps": 40000,
+  "short_steps": 20000,
+  "long_arms": [
+    "repeat",
+    "context",
+    "repeat_aug",
+    "context_aug",
+    "volume",
+    "volume_aug"
+  ],
+  "new_short_arms": [
+    "repeat_aug"
+  ],
+  "reused_short_arms": {
+    "repeat": "repeat",
+    "context": "2p5d",
+    "context_aug": "2p5d_aug"
+  },
+  "augmentation": {
+    "factors": [
+      1,
+      2,
+      3
+    ],
+    "probabilities": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "unchanged_from_original": true
+  },
+  "primary": {
+    "population": "20 previously unused official validation CT patients",
+    "budget": 40000,
+    "condition": 3,
+    "metric": "native-space patient macro Dice, fixed reference-present organs",
+    "contrast": "(context_aug - repeat_aug) - (context - repeat)",
+    "question": "Does acquisition degradation augmentation change the benefit attributable to real adjacent slices, relative to identical repeated-centre inputs?",
+    "interval": "two-sided 95% paired patient bootstrap, 10000 replicates after averaging matched seeds within patient",
+    "bootstrap_seed": 2026111501
+  },
+  "secondary": [
+    "Context gain with and without augmentation at native and factor-3 input",
+    "Augmentation gains and native-condition costs within each architecture",
+    "Factor-4 severity extrapolation, unseen during training but in the same degradation family",
+    "Three-dimensional versus planar architectures with matched augmentation (architecture and capacity remain confounded)",
+    "20k versus 40k budget sensitivity for four planar arms; cosine schedule duration also changes, so this does not isolate update count",
+    "Development learning trajectories and fraction of runs selecting the final checkpoint"
+  ],
+  "evaluation_conditions": {
+    "fresh20": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "original40_exploratory": [
+      1,
+      3
+    ]
+  },
+  "factor4": {
+    "sigma_native_z_voxels": "0.5 * sqrt(4^2 - 1)",
+    "decimation_phase": 0,
+    "terminal_plane_extension": "same as original factors 2 and 3",
+    "used_for_training_or_checkpoint_selection": false
+  },
+  "checkpoint_selection": "maximum native development patient macro Dice; deterministic earliest tie; no test-based selection",
+  "statistics": {
+    "patients_not_seeds_are_resampling_units": true,
+    "seed_effects_separately_recorded": true,
+    "secondary_intervals_exploratory_without_multiplicity_correction": true,
+    "fresh20_and_original40_reported_separately": true,
+    "same_source_and_shared_training_not_external_validation": true
+  },
+  "input_and_metric_implementations": "Reuse original experiment.py, models.py, prepare_data.py, evaluate.py and native_resample.py without modification",
+  "no_test_tuning": true,
+  "no_report_generation": true
+}

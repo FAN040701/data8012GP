@@ -1,0 +1,16 @@
+{
+  "scope": "Exploratory follow-up motivated by the completed new40 component results; not a confirmatory or preregistered endpoint.",
+  "patients": "All 21 cases in data/metadata/absolute_spacing/split.json, unchanged",
+  "target_sampling_mm": [6.0, 15.0],
+  "new_arms": ["slope", "curvature", "slope_aug", "curvature_aug"],
+  "reused_arms": ["repeat", "context", "repeat_aug", "context_aug"],
+  "seeds": [11, 22, 33],
+  "training": "No new training or checkpoint selection; reuse all 12 component 40k development-selected checkpoints",
+  "input": "Exact existing Gaussian-filtered and resampled absolute-spacing arrays; source geometry and references unchanged",
+  "question": "Does the effect of retrained first/second intensity-difference representations change with physical sampling distance in the same patients?",
+  "metrics": ["native-grid patient macro Dice", "scan-interior patient macro Dice"],
+  "statistics": "Complete 22-component contrast family, separately at 6 mm and 15 mm and their paired difference; 10000 patient bootstrap replicates, seed 2026111513; all intervals exploratory and unadjusted; three-seed crossed bootstrap as sensitivity only",
+  "time_guard": "Wait for main absolute-spacing queue. Start all 12 evaluation configurations only with at least 30 minutes remaining. No outcome-based stopping, exclusions, or subset choice.",
+  "deadline_utc": "2026-11-15T14:04:06+00:00",
+  "report_generated": false
+}

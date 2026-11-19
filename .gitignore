@@ -1,0 +1,14 @@
+/data/
+/environment/*
+!/environment/activate.sh
+/results/
+/reports/
+/logs/
+/.venv/
+__pycache__/
+*.py[cod]
+*.nii
+*.nii.gz
+*.pt
+*.npy
+*.npz

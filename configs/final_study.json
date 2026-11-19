@@ -1,0 +1,23 @@
+{
+  "start_utc": "2026-11-19T18:37:24Z",
+  "target_end_utc": "2026-11-19T21:37:24Z",
+  "new_policies": [
+    "far_near",
+    "mid",
+    "far"
+  ],
+  "new_seeds": [
+    44,
+    55,
+    66
+  ],
+  "augmentation": [
+    false,
+    true
+  ],
+  "primary": "In the additional three seeds on the fixed replication cohort, does the f3 mirror-direction difference change with training augmentation? Signed estimand: (near_far minus far_near) augmented minus plain.",
+  "secondary": "Matched 12-mm span, absolute scores and all six seeds. Compare the fixed f1 and f3 contrasts within patient. New fits follow the original 40k schedule.",
+  "transport": "Apply frozen near_far and far_near models of the initial three seeds, both training conditions, to the original test40 at f1 and f3. This cohort has been studied previously. Compare direction and augmentation interaction.",
+  "intervals": "Resample patients and seeds with replacement, shared indices across arms, 10000 draws as in analyze_offsets.py.",
+  "checkpoint_sensitivity": "Evaluate both mirrors with and without augmentation for all six seeds at 40000 updates on the replication cohort, f1 and f3. Compare direction interactions to development-selected checkpoints."
+}

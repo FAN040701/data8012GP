@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-11-15T16:01:10.277545+00:00",
+  "scope": "Exploratory reference-label localization motivated by prior false-positive maps; no anatomical overlap results inspected before this record.",
+  "population": "All40 replication patients, all4 primary arms, all6 fixed seeds, best-development checkpoints at f1 and f3.",
+  "reference_source": "data/metadata/dataset.json and unchanged canonical native 15-organ labels. Our four training targets are original labels1,2,3,6; other annotated organs are background in the training task.",
+  "analysis": "Cross-tabulate all16 original reference classes against all5 predicted labels. For every target organ reconstruct TP/FP/FN and partition FP/(T+P) by original reference class, alongside FN/(T+P). Positive contrast contributions mean error reduction and must sum to the Dice contrast.",
+  "guardrails": "All cases and original classes retained. Original class0 remains an unspecified remainder; do not infer a specific anatomy from it. Localization is not proof of the training mechanism. No scores or model selections replaced.",
+  "report_generated": false
+}

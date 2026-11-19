@@ -1,0 +1,1216 @@
+{
+  "splits": {
+    "train": [
+      "amos_0402",
+      "amos_0395",
+      "amos_0016",
+      "amos_0049",
+      "amos_0011",
+      "amos_0392",
+      "amos_0119",
+      "amos_0225",
+      "amos_0186",
+      "amos_0367",
+      "amos_0121",
+      "amos_0180",
+      "amos_0021",
+      "amos_0337",
+      "amos_0138",
+      "amos_0058",
+      "amos_0299",
+      "amos_0014",
+      "amos_0410",
+      "amos_0320",
+      "amos_0001",
+      "amos_0149",
+      "amos_0396",
+      "amos_0075",
+      "amos_0141",
+      "amos_0272",
+      "amos_0069",
+      "amos_0089",
+      "amos_0350",
+      "amos_0017",
+      "amos_0135",
+      "amos_0127",
+      "amos_0019",
+      "amos_0047",
+      "amos_0009",
+      "amos_0226",
+      "amos_0088",
+      "amos_0380",
+      "amos_0158",
+      "amos_0401",
+      "amos_0181",
+      "amos_0084",
+      "amos_0005",
+      "amos_0274",
+      "amos_0376",
+      "amos_0072",
+      "amos_0102",
+      "amos_0015",
+      "amos_0035",
+      "amos_0214",
+      "amos_0391",
+      "amos_0042",
+      "amos_0405",
+      "amos_0171",
+      "amos_0242",
+      "amos_0190",
+      "amos_0007",
+      "amos_0301",
+      "amos_0027",
+      "amos_0235",
+      "amos_0081",
+      "amos_0134",
+      "amos_0268",
+      "amos_0288",
+      "amos_0036",
+      "amos_0351",
+      "amos_0177",
+      "amos_0317",
+      "amos_0125",
+      "amos_0050",
+      "amos_0193",
+      "amos_0245",
+      "amos_0361",
+      "amos_0179",
+      "amos_0133",
+      "amos_0086",
+      "amos_0023",
+      "amos_0004",
+      "amos_0038",
+      "amos_0282"
+    ],
+    "val": [
+      "amos_0076",
+      "amos_0116",
+      "amos_0370",
+      "amos_0110",
+      "amos_0330",
+      "amos_0362",
+      "amos_0094",
+      "amos_0043",
+      "amos_0374",
+      "amos_0358",
+      "amos_0153",
+      "amos_0006",
+      "amos_0142",
+      "amos_0044",
+      "amos_0147",
+      "amos_0129",
+      "amos_0388",
+      "amos_0196",
+      "amos_0281",
+      "amos_0230"
+    ],
+    "test": [
+      "amos_0206",
+      "amos_0106",
+      "amos_0283",
+      "amos_0051",
+      "amos_0090",
+      "amos_0333",
+      "amos_0087",
+      "amos_0061",
+      "amos_0309",
+      "amos_0223",
+      "amos_0397",
+      "amos_0157",
+      "amos_0356",
+      "amos_0132",
+      "amos_0204",
+      "amos_0368",
+      "amos_0140",
+      "amos_0174",
+      "amos_0328",
+      "amos_0287",
+      "amos_0194",
+      "amos_0085",
+      "amos_0022",
+      "amos_0228",
+      "amos_0365",
+      "amos_0290",
+      "amos_0032",
+      "amos_0218",
+      "amos_0339",
+      "amos_0318",
+      "amos_0041",
+      "amos_0372",
+      "amos_0108",
+      "amos_0326",
+      "amos_0040",
+      "amos_0155",
+      "amos_0352",
+      "amos_0216",
+      "amos_0013",
+      "amos_0123"
+    ],
+    "replication": [
+      "amos_0024",
+      "amos_0025",
+      "amos_0045",
+      "amos_0052",
+      "amos_0067",
+      "amos_0071",
+      "amos_0077",
+      "amos_0078",
+      "amos_0111",
+      "amos_0137",
+      "amos_0143",
+      "amos_0159",
+      "amos_0160",
+      "amos_0166",
+      "amos_0170",
+      "amos_0172",
+      "amos_0175",
+      "amos_0184",
+      "amos_0185",
+      "amos_0192",
+      "amos_0198",
+      "amos_0199",
+      "amos_0212",
+      "amos_0224",
+      "amos_0239",
+      "amos_0249",
+      "amos_0263",
+      "amos_0264",
+      "amos_0276",
+      "amos_0294",
+      "amos_0332",
+      "amos_0353",
+      "amos_0366",
+      "amos_0379",
+      "amos_0383",
+      "amos_0387",
+      "amos_0398",
+      "amos_0400",
+      "amos_0404",
+      "amos_0406"
+    ],
+    "prior20": [
+      "amos_0018",
+      "amos_0029",
+      "amos_0070",
+      "amos_0120",
+      "amos_0128",
+      "amos_0136",
+      "amos_0167",
+      "amos_0200",
+      "amos_0207",
+      "amos_0247",
+      "amos_0255",
+      "amos_0278",
+      "amos_0292",
+      "amos_0304",
+      "amos_0310",
+      "amos_0313",
+      "amos_0316",
+      "amos_0334",
+      "amos_0342",
+      "amos_0377"
+    ]
+  },
+  "files": {
+    "amos_0402": {
+      "image": "amos22/imagesTr/amos_0402.nii.gz",
+      "image_sha256": "94023f67635142117d767d4245e1efe12e3dea0649bf04cffabe9666867fc6da",
+      "label_sha256": "70e3ea568947e89ea6a4778754247a5c230302d75ae4598512df63dbba90aab3"
+    },
+    "amos_0395": {
+      "image": "amos22/imagesTr/amos_0395.nii.gz",
+      "image_sha256": "33aed66ce140b879a07b82ff6d4f7781978e7f683719eb69c981360ad7dd4d0d",
+      "label_sha256": "5df117aff890b2a21528933ed6a0fe0a074ec7ca07a8e7470cbfbe331825d9ca"
+    },
+    "amos_0016": {
+      "image": "amos22/imagesTr/amos_0016.nii.gz",
+      "image_sha256": "b861622988c5626d82fc82c476f7fcb6975c7b252ce81ad78ee9c7eaa13670c6",
+      "label_sha256": "a3f7700627bf891d5de932cd64e3dfa721e2da466df51cc6f13b271746d90b74"
+    },
+    "amos_0049": {
+      "image": "amos22/imagesTr/amos_0049.nii.gz",
+      "image_sha256": "65527f2661692702759960f17571535c8a797b568d431e0ebc865de2beccfb76",
+      "label_sha256": "bc91f3c1b66f9bee163f404261c51c2b148fb5cfe9c0fb96ac23f3a850663042"
+    },
+    "amos_0011": {
+      "image": "amos22/imagesTr/amos_0011.nii.gz",
+      "image_sha256": "e6daf96e922f67f990bbd829d46e092e5dd2b61e87bca31c545780b0ad2854ff",
+      "label_sha256": "58da706cf19af28f72424639621377d09ca769b71f0cbf4d98bff7f7f2478c04"
+    },
+    "amos_0392": {
+      "image": "amos22/imagesTr/amos_0392.nii.gz",
+      "image_sha256": "472521416101b1aae1529fda6173ef452282dad352df9ff08a9d8cd83e6356a3",
+      "label_sha256": "bb1b6cb43fcf73335a82c0d38859b57e8199c077885afd330f02f1f0ce443bcd"
+    },
+    "amos_0119": {
+      "image": "amos22/imagesTr/amos_0119.nii.gz",
+      "image_sha256": "f890aff657e26bbde912f1f3b290d9ba23862ccf56fc7a7d98b98474507c962e",
+      "label_sha256": "45df47156b7be576edeb9e54683552d50363a3a3492329e2a40672e038b7b789"
+    },
+    "amos_0225": {
+      "image": "amos22/imagesTr/amos_0225.nii.gz",
+      "image_sha256": "4317438a656c5d315ce91a76627a645d169fd2d129fcd790311c4bf593b398ba",
+      "label_sha256": "1fd9182e151caf688b6730c38f38c45285843142701251612019e0744b8c700e"
+    },
+    "amos_0186": {
+      "image": "amos22/imagesTr/amos_0186.nii.gz",
+      "image_sha256": "43ca4850ac5ef69edd7a0e9adea608584841a97026361b1ed49fec919b766cbe",
+      "label_sha256": "a2db77530bfc7de6538a4483758887938e2cdff70a650a519c81c3db6239f413"
+    },
+    "amos_0367": {
+      "image": "amos22/imagesTr/amos_0367.nii.gz",
+      "image_sha256": "9714829412083d318d9c196ea1d48789a9e75e2536e75561eb9dcdd6c0829c5c",
+      "label_sha256": "602f1534575c111b7497a2d8ecd03eedf72bcb31b646f6bfcfdb90bc2c8b1a04"
+    },
+    "amos_0121": {
+      "image": "amos22/imagesTr/amos_0121.nii.gz",
+      "image_sha256": "9300cf39077cc15e5be9a0cfebf988996cdecb6830564dcded265e051e031fed",
+      "label_sha256": "a1431f4791d09d4d65fbc4515d0faeb69d6901656914490847a481b2dc5b8bb9"
+    },
+    "amos_0180": {
+      "image": "amos22/imagesTr/amos_0180.nii.gz",
+      "image_sha256": "00d8421fbcc60016cd3df06b14eca1721ba4cf3f0eeee2543cc5d52371f85765",
+      "label_sha256": "6b5fffe9ab4bba474fd0a5e16389d2ff364b2f0d2678d8be241ddaf3b13e9bbf"
+    },
+    "amos_0021": {
+      "image": "amos22/imagesTr/amos_0021.nii.gz",
+      "image_sha256": "b8c200445388bdeccb31b3b875ae376954664e9427f9fa9f9b200da718a0ad5f",
+      "label_sha256": "89b574775a9c559ebebd4e67125173d6d4953001e7218fc989e9cc9258ab6082"
+    },
+    "amos_0337": {
+      "image": "amos22/imagesTr/amos_0337.nii.gz",
+      "image_sha256": "038b550501c0ce862bc718d90d5f8d71f2929d35e0006b72cfb7d848c2a21257",
+      "label_sha256": "a4493a94aa3eee9175a069ba284283c290d31bb35f96cb7bf9fb012fb4ae8cfc"
+    },
+    "amos_0138": {
+      "image": "amos22/imagesTr/amos_0138.nii.gz",
+      "image_sha256": "c310f0443867d139fcfb394ef2638486c4f0f821c6564a04112298570fa35c33",
+      "label_sha256": "a975823691b0c37a9062fe3b91f698fa7f85b1fda9c38df98638cdc12b1bd7e1"
+    },
+    "amos_0058": {
+      "image": "amos22/imagesTr/amos_0058.nii.gz",
+      "image_sha256": "d8fe730647d059b7c007a9d7c532f30c04973e66d12110b55f8f0bc570b45357",
+      "label_sha256": "ca4bf0a96680a4a27b986dd4eee17b87d9ed96413079835ff813df5db1013188"
+    },
+    "amos_0299": {
+      "image": "amos22/imagesTr/amos_0299.nii.gz",
+      "image_sha256": "92cb6283a9673d606d5885a02fae2e2d7473b72f6a95a706268ff07a4118bb06",
+      "label_sha256": "6a28deb4f346c946b6767aa1580d277162c6916c7f29324591be42c98a02b409"
+    },
+    "amos_0014": {
+      "image": "amos22/imagesTr/amos_0014.nii.gz",
+      "image_sha256": "535cc8e6e88b77633f3c1b400635dd8100800bf178944f2241b260dd8c999393",
+      "label_sha256": "374f6a7a4aad978139153f7125e65bf20220231d3ad321bde2477c3c37f41949"
+    },
+    "amos_0410": {
+      "image": "amos22/imagesTr/amos_0410.nii.gz",
+      "image_sha256": "c13b8383e5f12e76bd21d1ad17d13c48a7a4dfa29aaf8ca83ec8e88138479a19",
+      "label_sha256": "1f0f176e9c6352a3f64bfead2aa1a8fb382fec596f47b89a46a146234dcb0b1b"
+    },
+    "amos_0320": {
+      "image": "amos22/imagesTr/amos_0320.nii.gz",
+      "image_sha256": "49e81c9dbe493d72806b523c898b411b4905b048c8fdb2d21639dd725f651646",
+      "label_sha256": "a2c1a72ffe9c68080f2f72d50daad3ea6c214feb17673f602bc8b957dfcbacba"
+    },
+    "amos_0001": {
+      "image": "amos22/imagesTr/amos_0001.nii.gz",
+      "image_sha256": "0a47b12e7ffd0cd5b11cd97ab7727c1a0b555e24281763cbc68d851fa6706803",
+      "label_sha256": "3c0fae3f082bead60d60193042712026a4b12b1de30e017bffedeacac6d6a4af"
+    },
+    "amos_0149": {
+      "image": "amos22/imagesTr/amos_0149.nii.gz",
+      "image_sha256": "54784c3d706148a2583af67972d6d420280238d92ce35e87353730a8dc9c4dac",
+      "label_sha256": "2be8e9a2f420283219f59bacea1607a4d6776bcd4f34660ada034a8727b06f5a"
+    },
+    "amos_0396": {
+      "image": "amos22/imagesTr/amos_0396.nii.gz",
+      "image_sha256": "f80cee9be0ab652f02a64757bdea0af8829456dd5b2786377c1d09b086114004",
+      "label_sha256": "6ba1d8217897de536e64b4073b44b45699380ba324ef389ddd9dd078e2ffd61d"
+    },
+    "amos_0075": {
+      "image": "amos22/imagesTr/amos_0075.nii.gz",
+      "image_sha256": "b7651c56df41eaf203f8877588da71d9e156eb4b4add1dd4f436a32d61c983e1",
+      "label_sha256": "a386fd9dfd26355f096ef1cff048c8f7aac756859a109c7d6e166516100c0c3b"
+    },
+    "amos_0141": {
+      "image": "amos22/imagesTr/amos_0141.nii.gz",
+      "image_sha256": "8850f4cadfb724049c42640f3d1567c808eceaa3856c81167fbedce82204cb64",
+      "label_sha256": "ecbb99a7ed1d333e25df09fff5e85abb3b79539ca41599900cb5252f0f46e376"
+    },
+    "amos_0272": {
+      "image": "amos22/imagesTr/amos_0272.nii.gz",
+      "image_sha256": "864fb802245a589cb31e49702e2f1dcb610631bc7bafdb0eb8bb943f69f42808",
+      "label_sha256": "c15d042fc6dc2ad9b5c7143921ea621b37f5e962cbc69b140dc040b0d2d8582c"
+    },
+    "amos_0069": {
+      "image": "amos22/imagesTr/amos_0069.nii.gz",
+      "image_sha256": "a97bcb5be53b4f3b70401e291a34353573c657f3a0dd120767a528ce2d541284",
+      "label_sha256": "c63f9391ad2e04ece59419502ef7836922bdf7709c732f2e0e96b1d283645400"
+    },
+    "amos_0089": {
+      "image": "amos22/imagesTr/amos_0089.nii.gz",
+      "image_sha256": "359687200db773a6973c73267ec59286d216cda21fad96d6f2a581cc0458a02c",
+      "label_sha256": "40f0cb5c22b0bed765357764825b4c3b33fa4443f7c174bd467337f9454901d5"
+    },
+    "amos_0350": {
+      "image": "amos22/imagesTr/amos_0350.nii.gz",
+      "image_sha256": "3a43a2f8b855fdec28f5fe143beac04674e5b51d83a6da10f8c431c28773bb2c",
+      "label_sha256": "88b20b6df7ce65c85ab86a9e2d18e298cedbac724679c70d7a797df36583923f"
+    },
+    "amos_0017": {
+      "image": "amos22/imagesTr/amos_0017.nii.gz",
+      "image_sha256": "d02d349a51ee650a0d965dc587440d7a7c68523d8bd3a70a2967aba772306fc3",
+      "label_sha256": "ef89274f7816e661d51af94d22714b0c44fc3c7be5d7690996e36de5b0621e62"
+    },
+    "amos_0135": {
+      "image": "amos22/imagesTr/amos_0135.nii.gz",
+      "image_sha256": "fc6e2e56d620504b7418f6e6f59d99cf42406b6a19fa15f3ff014210d6a7df7f",
+      "label_sha256": "d36c667342fe51ffbfd65c59b9f1e7512147d7c150b74f20cdccc6cba17e210e"
+    },
+    "amos_0127": {
+      "image": "amos22/imagesTr/amos_0127.nii.gz",
+      "image_sha256": "790b314d6dd39fd648e9bd7af0768686eee6efc0fb4bc7528d69b7fda35458a1",
+      "label_sha256": "98210ce6d28654bde606f3d05348a1ade8754fe576bd27817c4b0eddb45340c9"
+    },
+    "amos_0019": {
+      "image": "amos22/imagesTr/amos_0019.nii.gz",
+      "image_sha256": "8b506435b88962769a0663892edcdbcadbe962da666c5b8d4195983317e99ae7",
+      "label_sha256": "ae743c68b0622469113d69501033f2c6086a79ce097a89485d5e6b094578373a"
+    },
+    "amos_0047": {
+      "image": "amos22/imagesTr/amos_0047.nii.gz",
+      "image_sha256": "31d3a65768f54e74b44ffa7b3d40874051df702ede48cd7e3334e60bc5b34f85",
+      "label_sha256": "a2f64afaf398db049b428c4493a4955fd3b48f7e41e81541786e16fa00e3f04b"
+    },
+    "amos_0009": {
+      "image": "amos22/imagesTr/amos_0009.nii.gz",
+      "image_sha256": "f4d31e5c22715a939f36a5094a4d23c0389d2c50db93527a2575cabb9bb4e843",
+      "label_sha256": "54e7172070969684443e380f22b6ba5843d65f70402dbaa5ae7358a3688ea5e1"
+    },
+    "amos_0226": {
+      "image": "amos22/imagesTr/amos_0226.nii.gz",
+      "image_sha256": "e0a6468e148ed3837f16bb501470d2f6f29d92a9646c383ac3a5eb210d055439",
+      "label_sha256": "2f7a7a47674aea22bea72819b166bb9fcf9bdffbb911435f336cb9a07d23d2b7"
+    },
+    "amos_0088": {
+      "image": "amos22/imagesTr/amos_0088.nii.gz",
+      "image_sha256": "6948c143220d7abdb876d22cd5b47349e1edbbcbba04ee953271f04fc6662ac7",
+      "label_sha256": "e11b4fda234d2a5d5bc134294954aa361b52ebc11961b129262ee463e5d0145b"
+    },
+    "amos_0380": {
+      "image": "amos22/imagesTr/amos_0380.nii.gz",
+      "image_sha256": "6ccb8113ef6209fcf7bcd93a16d511d02d473f3000b3ec1e08be89377b09695f",
+      "label_sha256": "77058f9167067f3865520276127576b0c54e893550b67466d218dbe690bf3849"
+    },
+    "amos_0158": {
+      "image": "amos22/imagesTr/amos_0158.nii.gz",
+      "image_sha256": "f40245eef728a9540cb5a338011903d2a7f5af8db6f858f6574b397981a66361",
+      "label_sha256": "4d40f3a6b9a5ea63ef8b6b58bfd6dece11a90ce64bf91fc55a1b12473312dbae"
+    },
+    "amos_0401": {
+      "image": "amos22/imagesTr/amos_0401.nii.gz",
+      "image_sha256": "9778a98fc8cfa6ccdbfed522cbeceb143ebdc2af17662e89c5a3c7c6cf260afc",
+      "label_sha256": "8b05a527f1736bb5b3950967554bc0f3492f2a981d420bcb9ed3551176dffc4b"
+    },
+    "amos_0181": {
+      "image": "amos22/imagesTr/amos_0181.nii.gz",
+      "image_sha256": "c85daa672561c5c82107d45f90ab689ee464c7c7b51d7e97780b708d375ea6da",
+      "label_sha256": "b1d2749ae78c3889cf42ab89e84e2f1cbff09ded5a1d0e98c24972c5130bad30"
+    },
+    "amos_0084": {
+      "image": "amos22/imagesTr/amos_0084.nii.gz",
+      "image_sha256": "913521739a6c56c6fd66d9f196157c139bee1433b8a08dfb04b5d289312f0049",
+      "label_sha256": "d5452616b211d20bf5f22b2a43d4f7536e6e13276b147b6f8020dc87d099973c"
+    },
+    "amos_0005": {
+      "image": "amos22/imagesTr/amos_0005.nii.gz",
+      "image_sha256": "c8f27631729edbc9a516f74ea29b9a250ccc8611219811f168ef0e9993f090a6",
+      "label_sha256": "beab49da606f55d18d89e4d9abc7ccc2e09792a5efd2b98277fc812538811e24"
+    },
+    "amos_0274": {
+      "image": "amos22/imagesTr/amos_0274.nii.gz",
+      "image_sha256": "2cf746cb58d410218de44df619110b54e27f7142ae59914d0963e42861e31d7e",
+      "label_sha256": "b5b4fd5d07eeb1d09f453242b72f9cd7d78ede33486e3eda9a5242ce03b1ecf7"
+    },
+    "amos_0376": {
+      "image": "amos22/imagesTr/amos_0376.nii.gz",
+      "image_sha256": "bcb72774fa9af3faa225deef2afac28ac38eb5b57c1571a8ba840a0cb7a62b97",
+      "label_sha256": "0631155f98f4940e8b1dd359fa70986b47b3caf37b3118375c7c44a86c19fd10"
+    },
+    "amos_0072": {
+      "image": "amos22/imagesTr/amos_0072.nii.gz",
+      "image_sha256": "f12c010719ea0ec86d86bc18aed9d707526094afd5f7fb994d292c8389ef6b3f",
+      "label_sha256": "b6bcd551286bdab2b2b9b8737a637833daf65184841ad5847dcc8824b4211bb2"
+    },
+    "amos_0102": {
+      "image": "amos22/imagesTr/amos_0102.nii.gz",
+      "image_sha256": "506916a98e1a706cf1dc658aa3e563b8d88034ab7e6a1a4528fb83b9dc2406fc",
+      "label_sha256": "55ff7e50e0331bb73b02d10e9836553fb65c2518720a99551030840efddd9710"
+    },
+    "amos_0015": {
+      "image": "amos22/imagesTr/amos_0015.nii.gz",
+      "image_sha256": "f8a3a97c0f4424a89eb42cd230a7c7e5fcf275ccd2b1bd55998bf1f9f2941310",
+      "label_sha256": "55eccc466fae02732d81f39044054bb46939d4e735ff83028540663b741ee016"
+    },
+    "amos_0035": {
+      "image": "amos22/imagesTr/amos_0035.nii.gz",
+      "image_sha256": "813b6ba2bbcbd5d65d60e0a8f3a647ec0b5487b2796ca5e19f0759b0a59fb5d5",
+      "label_sha256": "393dbd05bb77ed8de80a4623f3460c59e456b5f579916a0f1fb84a11fcab0c9e"
+    },
+    "amos_0214": {
+      "image": "amos22/imagesTr/amos_0214.nii.gz",
+      "image_sha256": "a2e053178ba20b11fad3aa0462de99c613d81c767d3f77f9ca9c300c638535d0",
+      "label_sha256": "c8806bdaf4b2cd4dce591ee42e93941133b993d2af3582d6b913899c76dadc31"
+    },
+    "amos_0391": {
+      "image": "amos22/imagesTr/amos_0391.nii.gz",
+      "image_sha256": "3de8c89f731edd63a18f797f57418847bcaa2550e55f52e697ff449dbeb292a9",
+      "label_sha256": "9b537487c047327b8000aca6c51f2f257224191f45cbfa9456e3cbefa99846eb"
+    },
+    "amos_0042": {
+      "image": "amos22/imagesTr/amos_0042.nii.gz",
+      "image_sha256": "f9db43779ffbc8f45e4958854ef2ae4d9c04a0b2533d5345cf7ec6525125ca81",
+      "label_sha256": "c393f5d30ec3f51ff3d5cdbfbd268d598e1569c047f63d54078e219508c3fb30"
+    },
+    "amos_0405": {
+      "image": "amos22/imagesTr/amos_0405.nii.gz",
+      "image_sha256": "776d0e5ebbc1cd94365a91b00e855205013496b2dd920beca18d647f1e6af333",
+      "label_sha256": "5c624bc1ed3ab9ec2857333b9e47acb8d002b3c6e3c0dd7d60dc675da9d7a135"
+    },
+    "amos_0171": {
+      "image": "amos22/imagesTr/amos_0171.nii.gz",
+      "image_sha256": "965054651a40119f298ab5f6c64180f4285f48e935669becd004bf4155729bc2",
+      "label_sha256": "9dd32e725392c5340e80a151a3caa7765b7e6ec44fb63a82fdeb7d5ea91b0822"
+    },
+    "amos_0242": {
+      "image": "amos22/imagesTr/amos_0242.nii.gz",
+      "image_sha256": "4876851b866d1a6d3fcd89f87eb4d24f252a8c876fae93a9f729e4dff298f3f4",
+      "label_sha256": "2ddfa80002d6519dfcfee50069ff445af8e90a503b3ca61a35036994449718da"
+    },
+    "amos_0190": {
+      "image": "amos22/imagesTr/amos_0190.nii.gz",
+      "image_sha256": "b8fc092bb53662c2e3a2b2bb5a9ccb1f35a83e0b68659eb1e8ac459ea570e0ad",
+      "label_sha256": "b4c9b53f751f7ff77393329f9d536dba53f5417e0440045b50c4a19fec1093c0"
+    },
+    "amos_0007": {
+      "image": "amos22/imagesTr/amos_0007.nii.gz",
+      "image_sha256": "3eacad82bdc61fd84415bbdf3ed694abcdd4a62aade2863c771fbe14d8d42ed6",
+      "label_sha256": "3d99e2a7ca8c203b54728d23e8448024f4c68871127ae94abe72ffb4712ee73b"
+    },
+    "amos_0301": {
+      "image": "amos22/imagesTr/amos_0301.nii.gz",
+      "image_sha256": "3ee6881e7db8c7fd52924de6b74f79a899a02739423d02016053de68527deaab",
+      "label_sha256": "c804fdd385251aa375d7c3b49fc060005ed72b8ca0365232035aeb17f38a3217"
+    },
+    "amos_0027": {
+      "image": "amos22/imagesTr/amos_0027.nii.gz",
+      "image_sha256": "781dde86c59804b7e135c75dd09b0e96d3f278dd4df05d5b7e3a6ae12aef3b61",
+      "label_sha256": "3f57b9789329bbfd4bb3fa9cf85bae9d21e1291d2e914c2ab76102e6f8dcdfd1"
+    },
+    "amos_0235": {
+      "image": "amos22/imagesTr/amos_0235.nii.gz",
+      "image_sha256": "d7c504ed4404509ac3a3f47825288de3f17df589c30bdb3b0166a8f8e70f7753",
+      "label_sha256": "ce1f602cc74deff3461a9d382a7e8b9c5c884273a96ff2496102c9aa1a579e25"
+    },
+    "amos_0081": {
+      "image": "amos22/imagesTr/amos_0081.nii.gz",
+      "image_sha256": "871c60c5a0eacbc3a250e8d162bdd26c50f65b05f1a57d075dfdac6c7b74030c",
+      "label_sha256": "76f122c0ac540e749d6cce8f2fde4cbfbc140c3a2d621414f80f2b2cc74319e4"
+    },
+    "amos_0134": {
+      "image": "amos22/imagesTr/amos_0134.nii.gz",
+      "image_sha256": "71ade720ade6e1266ba07e7108e1351b18dcbb4fcc8b61283c1636a57504e548",
+      "label_sha256": "de670ed557f3d63281629539be7d3230d7a58bd0cd624c01ad550c32eb08c524"
+    },
+    "amos_0268": {
+      "image": "amos22/imagesTr/amos_0268.nii.gz",
+      "image_sha256": "c67546ce9a4b914fe775ff933426ec3fff3d8a768da51099886720e0c3b5cf80",
+      "label_sha256": "67b4869186f259de1307b0dad68e8d5ff5683b882b9f6b3d8ff0ad418d25d9c8"
+    },
+    "amos_0288": {
+      "image": "amos22/imagesTr/amos_0288.nii.gz",
+      "image_sha256": "ed848ba1c60f510d6651d6d9bf1df9c80afc15325545c7b33a6f3f85bce2eecc",
+      "label_sha256": "ddfdef4c028959bf755be054d0c52e08792ed0f0ea114d1ef5ba4a156c285bbc"
+    },
+    "amos_0036": {
+      "image": "amos22/imagesTr/amos_0036.nii.gz",
+      "image_sha256": "86f60e627b599cf4ed34d8770547909f35794875ba00d17e50d7323bc4ac0f99",
+      "label_sha256": "18c8fc1a5e19f3efcad4852afe50f1e4047da83e9d6948bc6e0e2881300aeb8b"
+    },
+    "amos_0351": {
+      "image": "amos22/imagesTr/amos_0351.nii.gz",
+      "image_sha256": "854854d749a59c2d9edea28556b8d1151f24ad89b9a0b221eb9c699813398534",
+      "label_sha256": "a2420e867539d7666f154f8820d5ed57a19cf6e914b2957fee3800c21d13fb80"
+    },
+    "amos_0177": {
+      "image": "amos22/imagesTr/amos_0177.nii.gz",
+      "image_sha256": "29eeb7c8493a68a005d4fa7af0eeae9c5fea915d3ee4c6cc14f7572e8231e9bc",
+      "label_sha256": "c512c95608b90d3e6839f6fe1bde4ba151b639ce36c0bcf09536036cfa924acb"
+    },
+    "amos_0317": {
+      "image": "amos22/imagesTr/amos_0317.nii.gz",
+      "image_sha256": "d32972ea72f64668ccd4eeb48c41bfe9bdc94b1c0eedc75e27bcc075bac13c52",
+      "label_sha256": "eeb8d6f9e071ada7878383e7b464c61b46368adbce0c8acb149e989af8796381"
+    },
+    "amos_0125": {
+      "image": "amos22/imagesTr/amos_0125.nii.gz",
+      "image_sha256": "6f77a1d81eb6fa59b21fc227efc95ee51450ba9088a2ec0010734986a55630c3",
+      "label_sha256": "c3560ef77d6726fcdebe3a9ff4e27c00aaae4048d48e160dda59d0ce51a3baf7"
+    },
+    "amos_0050": {
+      "image": "amos22/imagesTr/amos_0050.nii.gz",
+      "image_sha256": "8fd6f6bd4ee873bba2e1a5f770d8683ce01daf2455e286029eef49083cce83b9",
+      "label_sha256": "36f134732d1bedb194194faf4b6debc0a7ec98f41cab4ebd2d19f248024f1332"
+    },
+    "amos_0193": {
+      "image": "amos22/imagesTr/amos_0193.nii.gz",
+      "image_sha256": "df6fdef5c4cc73de853d05976412162294e68455b4ed3fe3bd4c87162fef7c9b",
+      "label_sha256": "22833ecfd2091475a0457dc885fd6610f178e5d545c6681710d06f45293186d0"
+    },
+    "amos_0245": {
+      "image": "amos22/imagesTr/amos_0245.nii.gz",
+      "image_sha256": "52fcc4cd8c35d139b7433cefd1bbb1229a764ed01f4e1ca716082e30b529f832",
+      "label_sha256": "9fa4e0b602c0da8159e3eb4ef54fd63a752ee4d95dc899eaad2ef7d8deb0ca16"
+    },
+    "amos_0361": {
+      "image": "amos22/imagesTr/amos_0361.nii.gz",
+      "image_sha256": "a06dc8ff9772df4ba586a86d3b38755449a34794a926d78b1b9adfdceebb0b00",
+      "label_sha256": "668ff873176f82b9f8db0904150e5c2f97fca8a241f642e68fb2e6319f057b31"
+    },
+    "amos_0179": {
+      "image": "amos22/imagesTr/amos_0179.nii.gz",
+      "image_sha256": "e45d47c3cd0c1639c33b7392a50fb620c2318a6c10d9ee26d1780b7cd3eba4f1",
+      "label_sha256": "57b50c07e3588c4d88f0d4bfa93d07662e744526e986a49c3c0f14359b402e69"
+    },
+    "amos_0133": {
+      "image": "amos22/imagesTr/amos_0133.nii.gz",
+      "image_sha256": "d1e59bcb51710e02fd18a872cad2b4c14b196489d6f77c984a47427434c2fb86",
+      "label_sha256": "f8b364b90e9d2b437e85e792445c71310d929173a30750f24d1b017b5bb28791"
+    },
+    "amos_0086": {
+      "image": "amos22/imagesTr/amos_0086.nii.gz",
+      "image_sha256": "4236f152992a0ded40c8b7af7868762b9924b2a3f77510f84bd37c0c4da06bc6",
+      "label_sha256": "ee6e907a4da9161e965be9985b7bd33d69feb0c8cc86811f0ebecb9f7a0d1278"
+    },
+    "amos_0023": {
+      "image": "amos22/imagesTr/amos_0023.nii.gz",
+      "image_sha256": "787f5107e638f14302e6e0b181cbd941d17ceadc880001ada6151ffc50edfc4a",
+      "label_sha256": "845eb5259fc93c820d1ce3f95ae89c105641c516355b4f1f54a505c26ec6ce6d"
+    },
+    "amos_0004": {
+      "image": "amos22/imagesTr/amos_0004.nii.gz",
+      "image_sha256": "0c65994c6c53182ef0fe8e1d86e597b843cb99db2dc1ac8f27876e34319ca9d9",
+      "label_sha256": "cb8bac8e724ccff8842285f460c0d5ab361aa15c4bab25bd371a25fef9cf79b3"
+    },
+    "amos_0038": {
+      "image": "amos22/imagesTr/amos_0038.nii.gz",
+      "image_sha256": "052e1c1e1d42803c1dfd49fcab483e515fbe66f08ba3ecf78b0f7fa351e60905",
+      "label_sha256": "f1551745d94afcd38e71504ee53d6b571f413ce021cfb5ebbf00037d2d8b2038"
+    },
+    "amos_0282": {
+      "image": "amos22/imagesTr/amos_0282.nii.gz",
+      "image_sha256": "5cae85beb7bbdb90e42c469f5918da34591b5aaa5e55fcaae4c4adbd0857922b",
+      "label_sha256": "657938ad1e59c4a473d1c8f2cd013c19d86ad087a34b395872269cb86f4ae41f"
+    },
+    "amos_0076": {
+      "image": "amos22/imagesTr/amos_0076.nii.gz",
+      "image_sha256": "faa57ae514f6e1ac541c18bdcc3be48bb20bfad772a1dae109580e17910e74ea",
+      "label_sha256": "ed1fdad853e4d3d8f38ded5ff7abf764a1c3b601e45ce5160e5f31d21ba67ab0"
+    },
+    "amos_0116": {
+      "image": "amos22/imagesTr/amos_0116.nii.gz",
+      "image_sha256": "f406dcce1069e9dccd2697e7136a525f127a3fe31315fe0be0ef5237db90d5f2",
+      "label_sha256": "99efd28afa7dd0bdeb64249f625e79039cae28beeacc6447269e8ef0bbf61d85"
+    },
+    "amos_0370": {
+      "image": "amos22/imagesTr/amos_0370.nii.gz",
+      "image_sha256": "72138bdccc885dcea1263f3c95ee3ec8e70dae6f2157003430aa5367f9aa63ee",
+      "label_sha256": "992979afa963f970b6f57c5669ce1c2c9dd42607fd514998b10272675c6d5152"
+    },
+    "amos_0110": {
+      "image": "amos22/imagesTr/amos_0110.nii.gz",
+      "image_sha256": "f7656a5c7ca42eebd3d03eec401b1032cb6551187c756f910a4c69a177deaada",
+      "label_sha256": "8970fd993f28e88b8f436b495f9405baaf8f31c064dc4080864f1cee4d23cc08"
+    },
+    "amos_0330": {
+      "image": "amos22/imagesTr/amos_0330.nii.gz",
+      "image_sha256": "1f4c25c265f85aa9294c7a40bc2bfb2cd9f28aa79a18583e1555849527cdfd56",
+      "label_sha256": "4f66a6b80c668c2c5618a0f1315cf5b986b3de0ac2bfc0c781d4004434120529"
+    },
+    "amos_0362": {
+      "image": "amos22/imagesTr/amos_0362.nii.gz",
+      "image_sha256": "2318040632adcbea7faea06967686d399d15afd17fe8e542f34a95b9a36c7959",
+      "label_sha256": "f489cb9be72269b1d9710b36fe8c97cea0508a4978ac83bd551e4825a9ed7083"
+    },
+    "amos_0094": {
+      "image": "amos22/imagesTr/amos_0094.nii.gz",
+      "image_sha256": "cbaf3328890b42c4bb2c48f219fe602cf07a091464313ac1891eb3afc2d7a587",
+      "label_sha256": "cb2178025c2963d8e8b5d1b7782835d5e337582b72ca9c821127ab23b95772f9"
+    },
+    "amos_0043": {
+      "image": "amos22/imagesTr/amos_0043.nii.gz",
+      "image_sha256": "014699267d79de33c41ac03960e065aa40ab7d2e6214e475e568a67cd771fced",
+      "label_sha256": "b2f2d47b81d67e3c28d4e7106038ecac3796ac77d7d730913c201e565d651990"
+    },
+    "amos_0374": {
+      "image": "amos22/imagesTr/amos_0374.nii.gz",
+      "image_sha256": "5feb69adb579fccead546f8037fcb679ea0f3c1138df90fc7edf393233ff4eb2",
+      "label_sha256": "a6e58a7ead41da1c88db39790893a7662bf8a774e49c1b1446fa1fb8e646cbb4"
+    },
+    "amos_0358": {
+      "image": "amos22/imagesTr/amos_0358.nii.gz",
+      "image_sha256": "7396e93a8c6cedfc662c09ea5b9931e67341a91b0e6f6e808cc17d8a122dc305",
+      "label_sha256": "7a5109302b9ad0be158ecfc6bed71641ac4d9bce8ac7ce9ccbd616c3b14e5477"
+    },
+    "amos_0153": {
+      "image": "amos22/imagesTr/amos_0153.nii.gz",
+      "image_sha256": "6165ad9b2eca08e855166a0636074170ba59ab4f529ca9394b4a63db0946e2e0",
+      "label_sha256": "462aff10a059e054ef3fb109b3e500d48e7c9de0620ff668f58f6e7ddcf1bb81"
+    },
+    "amos_0006": {
+      "image": "amos22/imagesTr/amos_0006.nii.gz",
+      "image_sha256": "1e61578470e7ae549b7bd512535a687ad767e9cb0342fd383f6569f576ff2635",
+      "label_sha256": "a8d5d45e11aac907b96e5e5c65f2697d102ca8afd3b14dbcb4eef455202a22d5"
+    },
+    "amos_0142": {
+      "image": "amos22/imagesTr/amos_0142.nii.gz",
+      "image_sha256": "a91b3f1d99181abec663598248bd53adb023fc2e1b912bf448e9a7751021bef0",
+      "label_sha256": "3ab83ede6c71b9aa8bc429b20eb9ab42cd76fe23fec267386f2417c371ca6724"
+    },
+    "amos_0044": {
+      "image": "amos22/imagesTr/amos_0044.nii.gz",
+      "image_sha256": "f3775ac96ea2616ce872530f09b7bca7c7b8a83dbc55ed7b91d67c49d7c7408c",
+      "label_sha256": "bf812d04e515b62f77dbc45f323eda895e557483bebb2b80d5acfd7cfaa5b731"
+    },
+    "amos_0147": {
+      "image": "amos22/imagesTr/amos_0147.nii.gz",
+      "image_sha256": "95533a3000ebc3b4c3964502e79ad803bfba19a2be8548e88ed0812c47305fdb",
+      "label_sha256": "10e1e9ad29ba8761e653fafd6cb52b8a601c3f74c5ca7ee69b11d82b56b010da"
+    },
+    "amos_0129": {
+      "image": "amos22/imagesTr/amos_0129.nii.gz",
+      "image_sha256": "350e1d16ebd7cdeca79b7e27e8dcb96fc470d17680c3f5278875e09d93fe6fd9",
+      "label_sha256": "910eb35921266b77abaa851c6d77ae03271a991d377e04d7b5eb13d14d89257e"
+    },
+    "amos_0388": {
+      "image": "amos22/imagesTr/amos_0388.nii.gz",
+      "image_sha256": "c52d9ee54e901acca930c422e36d2032ca60619fd7d7e951984b9048c6c440b1",
+      "label_sha256": "063ebfeff61c1a7dc53c04d8f77a1c3b0dbfb213a4a4dd920747fca27f02ac3d"
+    },
+    "amos_0196": {
+      "image": "amos22/imagesTr/amos_0196.nii.gz",
+      "image_sha256": "dfcdd8e4a0198305ea628b962159e1dd48b338f52d3b734a3fb33d128728b57f",
+      "label_sha256": "e826260717e9f28e9663b78bcacdce962d0e87d3f10c7970f270ae9b6de82bcb"
+    },
+    "amos_0281": {
+      "image": "amos22/imagesTr/amos_0281.nii.gz",
+      "image_sha256": "d67f5c383c4e5ad52c2ca23b8ce3a6beb268176701296f24c4ad3fa9f9c6f97c",
+      "label_sha256": "90fc4e31969a8ab17a422bf063791a411c06fce13f6d6ea58f4af7e5856b40b6"
+    },
+    "amos_0230": {
+      "image": "amos22/imagesTr/amos_0230.nii.gz",
+      "image_sha256": "68c07a4f4fa4d7741290a623b4d394e07eb5d2b3480fde41e84d3f9a548982b2",
+      "label_sha256": "27ea3881c5a5bd78f0637386ee29bc78e43078ed07f4743182dd8c53357f3127"
+    },
+    "amos_0206": {
+      "image": "amos22/imagesVa/amos_0206.nii.gz",
+      "image_sha256": "f3597bc13fe6e60c9f1295b05ea11b9fda2c510a959fdb55611f27267c3ed036",
+      "label_sha256": "b5b6521db61521063da671bd98d4ab65f6e2b95cf26a3385fe6f32287dd91c29"
+    },
+    "amos_0106": {
+      "image": "amos22/imagesVa/amos_0106.nii.gz",
+      "image_sha256": "0373fa7179f3649ece0b8912357478397b2139528104a28462fca719c400bf3f",
+      "label_sha256": "00e6453500c449a1c7e4bb0766a34b4435a6eefb5d91011315bc3578698645da"
+    },
+    "amos_0283": {
+      "image": "amos22/imagesVa/amos_0283.nii.gz",
+      "image_sha256": "b5dbb5d7a07c0a787b070c65b42edaa2d409ef0354b03a0b916dda06f8cd08f8",
+      "label_sha256": "30b86793d9da6e5f6f10fc9670521bac828e7d99fae57e1cc73cf2fcf41df064"
+    },
+    "amos_0051": {
+      "image": "amos22/imagesVa/amos_0051.nii.gz",
+      "image_sha256": "2060f9b4522638dad4a2cdd52adf445911313623cd3e6ded37163708d0642736",
+      "label_sha256": "31528bb31304a69c213dc3215918682f99b309bc1cb0462ada3acca89a074bcd"
+    },
+    "amos_0090": {
+      "image": "amos22/imagesVa/amos_0090.nii.gz",
+      "image_sha256": "d9333e566aa76561e8803cc7667ef1be55ac495a95cc901182aa121873d80380",
+      "label_sha256": "c89f118657b30afee206b828f019fa079c9e6235e42ccb63a35f81a0a8e5d8f3"
+    },
+    "amos_0333": {
+      "image": "amos22/imagesVa/amos_0333.nii.gz",
+      "image_sha256": "c528bb51ff51851ea8f8890304d208abe1a2cdeefc20e8e4ae474ae5219edc31",
+      "label_sha256": "5f32d5288e36342d7e0c86bd1e7db9e1337dc4b92f33cc09f9876b543b9a4f21"
+    },
+    "amos_0087": {
+      "image": "amos22/imagesVa/amos_0087.nii.gz",
+      "image_sha256": "979f2a6e6588608fe904df18928ddab25746bf80075d29c6fed28dd5ff38d90a",
+      "label_sha256": "0cf6a5028a9a8c04ce01e9c8198a3dde5c32c1ec79dd68223ea3acbeee3d97e2"
+    },
+    "amos_0061": {
+      "image": "amos22/imagesVa/amos_0061.nii.gz",
+      "image_sha256": "c586205452604566eaf22daae1c1a7a17a22eb48e49acccbc50bf89aab11011a",
+      "label_sha256": "addcba2e1b890bd0846e55076bede18a62d33f15d22c191c3a723288a0cffabf"
+    },
+    "amos_0309": {
+      "image": "amos22/imagesVa/amos_0309.nii.gz",
+      "image_sha256": "b56b020dbfee016985ef3508db4ed905a7c02ad91b89a6e0be95a9ed5b22f8d1",
+      "label_sha256": "29fea8b7ffc6d743fc13e364dd95caeede830ce692d3a92e1bfd8527e07fdc44"
+    },
+    "amos_0223": {
+      "image": "amos22/imagesVa/amos_0223.nii.gz",
+      "image_sha256": "b7fa8bd3b637e0187da5e1293dbb632845e9c27f8fb7bbe2a247b550238334a5",
+      "label_sha256": "95d000b37ae22fcb29a368b564246da19c06e6da2b63a54bedb8baeaff34b8f1"
+    },
+    "amos_0397": {
+      "image": "amos22/imagesVa/amos_0397.nii.gz",
+      "image_sha256": "34bd4d2dd1f1308451361bd14df35bec16953734c2bc7265c345205d23df96b4",
+      "label_sha256": "7e5291a609eaa47e6f027c99b6db5aae3040eb22dad5e8af1b1c44a24a516335"
+    },
+    "amos_0157": {
+      "image": "amos22/imagesVa/amos_0157.nii.gz",
+      "image_sha256": "449f1e9513f034d17cdcf1682511806099d91c7aa8ef74bef99f3b7bbac3e5da",
+      "label_sha256": "33a35fd4ce3e009a14e00cc1021dfffa20b38bde045433e12c24c7c2b22f3921"
+    },
+    "amos_0356": {
+      "image": "amos22/imagesVa/amos_0356.nii.gz",
+      "image_sha256": "cd9dff2d6d94046a5673207d5e43ee7a7bd81b4e9179283772450a53df58cfe5",
+      "label_sha256": "9df1e356dc3f62f64a9ec60ea061ed74761d9dfb23c23b688b04a46ae5e318a0"
+    },
+    "amos_0132": {
+      "image": "amos22/imagesVa/amos_0132.nii.gz",
+      "image_sha256": "c3b32580a73cf782a50012359b0da220a2af2da882106008ba8ac8ff143a7067",
+      "label_sha256": "69b890928879301fcdc595301b87fe37f5bb3da7d23f53974967710f9881540a"
+    },
+    "amos_0204": {
+      "image": "amos22/imagesVa/amos_0204.nii.gz",
+      "image_sha256": "64ca601fb18ac40bd1014dbb35b3285f0e1fe953f7ca64ac38f486f075d1c08d",
+      "label_sha256": "16e96d0c4979c9f5370ff2bb5c645f22ec7b69019f2af67d39df6835727e87c2"
+    },
+    "amos_0368": {
+      "image": "amos22/imagesVa/amos_0368.nii.gz",
+      "image_sha256": "3621c7f70f1f8f87b62bd277275b7400ee2849af81abe967be275e133439a5c6",
+      "label_sha256": "715635b0bf901a3d3e6bed965926f117b957311aee62b2bbad0401c9512c5563"
+    },
+    "amos_0140": {
+      "image": "amos22/imagesVa/amos_0140.nii.gz",
+      "image_sha256": "47d0294eb563547f19d0b24d28d7b71d2d268b834945ba2395c982edccb4d29d",
+      "label_sha256": "5c6b0e1b1209cc76985e015f0704704a2529c7d22149f69978c7e013b422164e"
+    },
+    "amos_0174": {
+      "image": "amos22/imagesVa/amos_0174.nii.gz",
+      "image_sha256": "a11a3a086ac9377c677b6114f6cd323225b31a337318b15d67d6072eb9233ae7",
+      "label_sha256": "379c416b20991a62767df5e8be7fb7145ef965953e0841fc411ad57bcbae8abe"
+    },
+    "amos_0328": {
+      "image": "amos22/imagesVa/amos_0328.nii.gz",
+      "image_sha256": "ea5ef959b225a0f0e9abe3bc5d87212a1cb23b2541f1a39118f2e77ab3ade13f",
+      "label_sha256": "26bc845ff65ec8b6af4673a7cb3423c51b7153a38ab502e173fe4206f8180faf"
+    },
+    "amos_0287": {
+      "image": "amos22/imagesVa/amos_0287.nii.gz",
+      "image_sha256": "a1b83f771babc7b455b201a2bab35fac8cd6f83dc5ba1445695b62f7eb325c51",
+      "label_sha256": "848a583b7f590da59198d411f5c1fb5eb0634ac7aa3fe76a798a502f041bcd36"
+    },
+    "amos_0194": {
+      "image": "amos22/imagesVa/amos_0194.nii.gz",
+      "image_sha256": "a204b66e589055e2c66fd25cd291fe4acfe854c82165c39d4979185981ee6a31",
+      "label_sha256": "91e628aa43d344c2b490d90f9339817f3f26d7efa0e2e0ab97f8ca8e1bfba403"
+    },
+    "amos_0085": {
+      "image": "amos22/imagesVa/amos_0085.nii.gz",
+      "image_sha256": "3248cd7f9b79fa8bd6c6ebfbca429682b227bd76843047514258732eb08109d9",
+      "label_sha256": "6a33be78fba890ebcc975ef0ce4e15c04c7b0e52a110c5b9786504665d1edeb0"
+    },
+    "amos_0022": {
+      "image": "amos22/imagesVa/amos_0022.nii.gz",
+      "image_sha256": "232066680621d48fd48bd08a981828a2339ee9bdfd12e8b39a98ba4950e8c117",
+      "label_sha256": "9bff41550ba80c86764ca4babc40aa093b7e5aeaddaa7e5aec433c24cae3bdbe"
+    },
+    "amos_0228": {
+      "image": "amos22/imagesVa/amos_0228.nii.gz",
+      "image_sha256": "d1cf354ff2642175e685d44d5fdd1e8c9423f4bc44f1e96363f9025645501b62",
+      "label_sha256": "19c75e0463d987b085bad89b136cbfcd93486e0f8de57d2f98b65c4d58bc5f58"
+    },
+    "amos_0365": {
+      "image": "amos22/imagesVa/amos_0365.nii.gz",
+      "image_sha256": "b847fbffab9eb2ceaa3c7d15e943380487e3475d85a59fefee6eb7232564586e",
+      "label_sha256": "66ed2cf25849da440d037dcb947986e501e6b572059613a736c696c908a63d98"
+    },
+    "amos_0290": {
+      "image": "amos22/imagesVa/amos_0290.nii.gz",
+      "image_sha256": "03625f98805788d699c09c7a8151e529eac6e46d3388ebbbd4fc0d97e9d6796b",
+      "label_sha256": "03541cf82dc40b69c9a186c31c0d9cf0d1f2136676c3d038ea203ef6ebde8a08"
+    },
+    "amos_0032": {
+      "image": "amos22/imagesVa/amos_0032.nii.gz",
+      "image_sha256": "9c7ce2bcf106d5ffc8ecee4ce67277a1944cb0fc4e1775facc529ae1accf78e0",
+      "label_sha256": "43a40699643472f971fbdf4c420bb6b663464fed44b5f678576a59eccb9adf39"
+    },
+    "amos_0218": {
+      "image": "amos22/imagesVa/amos_0218.nii.gz",
+      "image_sha256": "c12a25838bdb06c0081e35f4dd3808092c66ea4e3233114abb6e653d65c0d2a5",
+      "label_sha256": "3638664dfba0c936256940e1ff1e6aec4fa3bfc8a55e3bb23f52b26866a33c5a"
+    },
+    "amos_0339": {
+      "image": "amos22/imagesVa/amos_0339.nii.gz",
+      "image_sha256": "e88585bd21327446391cceaa3a7494beddf08d8e56de0287fb36cf1182c09f21",
+      "label_sha256": "7a6031c0ac4a0fe2f0888ec06b67a61e6f4d01d277dedd8525c94ffb904cc89c"
+    },
+    "amos_0318": {
+      "image": "amos22/imagesVa/amos_0318.nii.gz",
+      "image_sha256": "9087411715ff7a773ffc79b23d65a2142821035caef60e7c4a4ffd61df115576",
+      "label_sha256": "180753cbd6cc213c858a8540cb6f57607fbbb75460d4257f50912b27ec2ebea7"
+    },
+    "amos_0041": {
+      "image": "amos22/imagesVa/amos_0041.nii.gz",
+      "image_sha256": "80b1001c8227d5c5df84f88344fa73ca8ab68334a6e0f9c733d4a4e28d8c42ad",
+      "label_sha256": "083b2012acf6b33ab4ba0eba5f8e1bf5525e618451c5399592b3f7270ddf2221"
+    },
+    "amos_0372": {
+      "image": "amos22/imagesVa/amos_0372.nii.gz",
+      "image_sha256": "172cc372220c315d2dcbe8cd2c4a0bf4281b53dc73ebb7fdab11d8eba3d5e210",
+      "label_sha256": "ff30ac8178de84e6ed55546326e73b38a0e98a33078db36de13b192d135c2066"
+    },
+    "amos_0108": {
+      "image": "amos22/imagesVa/amos_0108.nii.gz",
+      "image_sha256": "c3aa89ed356c01169a419e7f97cb4504dd0c22a89c59cbda77a8a3570e309e9a",
+      "label_sha256": "c015392ee47b2449e2b828ac369b2a0187ffea8453eb10d7e8ab66bd9899057f"
+    },
+    "amos_0326": {
+      "image": "amos22/imagesVa/amos_0326.nii.gz",
+      "image_sha256": "a59d55165a6c84c943facef55590a2420fc229ec2646a0347de95a824b820a3e",
+      "label_sha256": "8d949ceced92ebf66ea263caf12c07424cd92c84dae791dde4dfb0127dc99d79"
+    },
+    "amos_0040": {
+      "image": "amos22/imagesVa/amos_0040.nii.gz",
+      "image_sha256": "adc229c697c44f663288104ea5ec7fc974da108ba25ebe0cb74c640e1c8611aa",
+      "label_sha256": "d5ccb3c9798aef2c60b710cdebad33bc395bc4d30b6eb637d0d7b4505509696c"
+    },
+    "amos_0155": {
+      "image": "amos22/imagesVa/amos_0155.nii.gz",
+      "image_sha256": "113e9bf979e6911ac9b632b5b337e942846519ea6c0afc7f4a32ffb6cf6d8a4c",
+      "label_sha256": "e162dd19eb6b067bad346f80cd55f45772d5f23521ad2796e1d26ac8aec5a9c7"
+    },
+    "amos_0352": {
+      "image": "amos22/imagesVa/amos_0352.nii.gz",
+      "image_sha256": "bb9ca789facbcf8f58631b0f790ff7923f8952a2d879a081a504360ac64e560c",
+      "label_sha256": "b3b1d01e552c1fde2dc30b796b8b36c534d3eeee38f66154971bb945a27ed03f"
+    },
+    "amos_0216": {
+      "image": "amos22/imagesVa/amos_0216.nii.gz",
+      "image_sha256": "452785833aa8d5b0f753c97ccd321507bf77690c0c3885e7084f5de6629b004a",
+      "label_sha256": "832c041a6ab724105ea6947f895c1ca26c6ac88cd71c475285cec43fb79788e1"
+    },
+    "amos_0013": {
+      "image": "amos22/imagesVa/amos_0013.nii.gz",
+      "image_sha256": "eb32b1d2f7a705ca9cbb3af3576edc98405657f95fc8fc1f90b8b8614936aba2",
+      "label_sha256": "be43249607c0284f3aceccc500d3d79a7fac514aba3ca4175fb369f09278c414"
+    },
+    "amos_0123": {
+      "image": "amos22/imagesVa/amos_0123.nii.gz",
+      "image_sha256": "1bc931313a00edea298cff067e830e5ddaa73a8af8fe3352c74734daf2239363",
+      "label_sha256": "a21c96178b55d4663f2556dd270b9bd3eda241d001b97c9e1c0c8f6891888941"
+    },
+    "amos_0024": {
+      "image": "amos22/imagesTr/amos_0024.nii.gz",
+      "image_sha256": "75ec4566ba74dd45ea23008f3d0191b8f72c83910d5277dd297330f9982420fc",
+      "label_sha256": "d07383b827ac4d47d89b7d762b47a2d0b9f0f4390b9d6d5f49de6539f065b298"
+    },
+    "amos_0025": {
+      "image": "amos22/imagesTr/amos_0025.nii.gz",
+      "image_sha256": "a0c6be5a17412f7fcc9ac668caa7a5b5f7385382d450b0979c6aec81be64e92a",
+      "label_sha256": "e448ff4e4aff564757f241f3126fc92232f1cc7f5f0d8d39203326f521e8697b"
+    },
+    "amos_0045": {
+      "image": "amos22/imagesTr/amos_0045.nii.gz",
+      "image_sha256": "dca0cca50efdab81a3b8337a5b8a9e6e3f2c5faef420690c0cde0798f1668387",
+      "label_sha256": "6273347e6c06093db66297d29592c8ca703a22cf558113ae92514b2fd0d0a94a"
+    },
+    "amos_0052": {
+      "image": "amos22/imagesTr/amos_0052.nii.gz",
+      "image_sha256": "dc351f39ea966d7fd6f77e49606fe63adb68cb933dbdbcd398681dc6d3431a09",
+      "label_sha256": "13009e924cbf7701869b25f7bb1956b2e12a432a59315733fc447f868fe68a14"
+    },
+    "amos_0067": {
+      "image": "amos22/imagesTr/amos_0067.nii.gz",
+      "image_sha256": "bcc9339781329360a4b5736ed26093dc12a64200ae71668d73edb1e3c1402fae",
+      "label_sha256": "2dd74b1e1153bef1c41ed4e8b7dde6e857c3e97c4cfec34d7fc32d85be7126aa"
+    },
+    "amos_0071": {
+      "image": "amos22/imagesTr/amos_0071.nii.gz",
+      "image_sha256": "b1c64d30ae3b4054dae18b0d73ded3533a65ed689ad76a4c5ea5126c342edf53",
+      "label_sha256": "6690be5d9e0e0e5286628a1a16cd5ae88251ecd8418329f39d9d972942cb3d3f"
+    },
+    "amos_0077": {
+      "image": "amos22/imagesTr/amos_0077.nii.gz",
+      "image_sha256": "1dd54d9ee736c8b73da5921b935f2d2c916ca8eff485cd34f671b8fee54936fa",
+      "label_sha256": "acb28e49aa31e82ffcdab1f6e784d0dfb0598535956f3ca9d8638a75c78e27dc"
+    },
+    "amos_0078": {
+      "image": "amos22/imagesTr/amos_0078.nii.gz",
+      "image_sha256": "a9d33187c963bc4e8428dbccb84cc3d89bee973bffc6fe7f31c372379eabfd5e",
+      "label_sha256": "afa824e761b928175c55879269304cb8afbbc94ca9589862793f13ebaec74be1"
+    },
+    "amos_0111": {
+      "image": "amos22/imagesTr/amos_0111.nii.gz",
+      "image_sha256": "18965ee51f78a46b45539650f9aa70719df1e30d88b196c59bb5c2fc28b4fd1e",
+      "label_sha256": "c53408dcc17583cc5a36ed19e6686709d13189e319958e9665194e76242ae160"
+    },
+    "amos_0137": {
+      "image": "amos22/imagesTr/amos_0137.nii.gz",
+      "image_sha256": "d29356acf7c0cd3cfda1f567c4e5921f19db046d055ebfb347ce8989df17adca",
+      "label_sha256": "c21757ed75dc6709f0f7a890d2977f34f2425e1478980a637215a31a99e71e33"
+    },
+    "amos_0143": {
+      "image": "amos22/imagesTr/amos_0143.nii.gz",
+      "image_sha256": "94c708b81f63a17c890a7dbd1c08425b808180cab8abb6018ae86e148077c4cc",
+      "label_sha256": "c0759e7846af46d428877218770f0115817e5458c22b94a894d7291f9d1b08ac"
+    },
+    "amos_0159": {
+      "image": "amos22/imagesTr/amos_0159.nii.gz",
+      "image_sha256": "3094b033c7420698c3c5a45fbb47512375a854b33fcd5db974597a119829631d",
+      "label_sha256": "9e84088a8fec874ee2ca83a72f135a6c26925787f6a33cbd60ffb0933614af41"
+    },
+    "amos_0160": {
+      "image": "amos22/imagesTr/amos_0160.nii.gz",
+      "image_sha256": "0898d3ffbb8634d007e66c1e2334986fe6e06732c8da8a3e861b0eac38afb385",
+      "label_sha256": "3080035bdc4421f7b074feebe8848452a872c459873dbec3568334e69dc14e12"
+    },
+    "amos_0166": {
+      "image": "amos22/imagesTr/amos_0166.nii.gz",
+      "image_sha256": "4bbf8c3d350f949190d6daa89bbf32038bd261a95755f356ed6c69df419f2ecf",
+      "label_sha256": "9557b6f617d451a04b543a849ed1e4cc281f0a681df3f3fb6efeaab0866c6b2b"
+    },
+    "amos_0170": {
+      "image": "amos22/imagesTr/amos_0170.nii.gz",
+      "image_sha256": "54d448052753e83389e61eff8cf2f56668a58274af9fb1ce90fc54e2989d31ad",
+      "label_sha256": "3763c0e1811d4b837265f6e03aae516596e1e7819ae9b9ea4473fb9baf35b950"
+    },
+    "amos_0172": {
+      "image": "amos22/imagesTr/amos_0172.nii.gz",
+      "image_sha256": "73edc7611d245f9d646685ef38adc41229b9fe3bfad912066ecb88b521863583",
+      "label_sha256": "36e8578c4ed276591a572ff7d12df2f6fed0effff7faa6b605bddb558e9afa10"
+    },
+    "amos_0175": {
+      "image": "amos22/imagesTr/amos_0175.nii.gz",
+      "image_sha256": "d48d26c695b27a4d509fb23f2f8059d5e76d243b924fc4fd0a555e44e9cc1b2d",
+      "label_sha256": "e47652bbae77bcf8a2c1a08538b6ccb861ed04b93137387783c57de20cbb7224"
+    },
+    "amos_0184": {
+      "image": "amos22/imagesTr/amos_0184.nii.gz",
+      "image_sha256": "23e8cfb562522c58b81618f728a62c861a4b2c7a396eba2bb656db443cb8624b",
+      "label_sha256": "7490180f59bd27683941508c7dda1a7c79ec9fa8c971868a045cbdc9081bd6ff"
+    },
+    "amos_0185": {
+      "image": "amos22/imagesTr/amos_0185.nii.gz",
+      "image_sha256": "e5bbae97ddc99b8bc9006fa530c09bd9e805266dbf12766eefb5e42a98b94390",
+      "label_sha256": "4593b2798b5d9c3d4feeeb9cfe6bb08e39648977fd1cfe94370d65461b05a693"
+    },
+    "amos_0192": {
+      "image": "amos22/imagesTr/amos_0192.nii.gz",
+      "image_sha256": "4823a8c4f9557890aff10bb1d121d164a4d66483b7338461e239a306b1ee859e",
+      "label_sha256": "bb117e73c52aacc19cc12a9a8ba3d186adafb649738812b3dc691aa4af24fc9c"
+    },
+    "amos_0198": {
+      "image": "amos22/imagesTr/amos_0198.nii.gz",
+      "image_sha256": "cdc7edce9f930176e865b1affda07ec8fd8971b40897da4ae9483c752091b68b",
+      "label_sha256": "77a108606810b3ebd5c4f1eecf38f850ea28d7749a493008c5ed4f9c044fcfaf"
+    },
+    "amos_0199": {
+      "image": "amos22/imagesTr/amos_0199.nii.gz",
+      "image_sha256": "93028187b3bf9731975c289224f94ff43ec61af81f288a74e139b3455d3f8ddd",
+      "label_sha256": "95801606c35f115284b6d697c3e62e95a3740c4e8143c7c90e2f7fe59eb84614"
+    },
+    "amos_0212": {
+      "image": "amos22/imagesTr/amos_0212.nii.gz",
+      "image_sha256": "7f7e8c35dae7d1fcc67e414c008c8b60e9006a8af5674655f4ca41befdddaaec",
+      "label_sha256": "35c866b8c337c4c6add98dd82998ee075ce622eca28ed55ba34457b3f38def2f"
+    },
+    "amos_0224": {
+      "image": "amos22/imagesTr/amos_0224.nii.gz",
+      "image_sha256": "9381583da12fb040e13a428b7d1e1d4e46cb7c7ef1a1813099e5d89c43b2c5d9",
+      "label_sha256": "b3903b9a5a3fff1276fe4d2beb4ec9a7cc334cc4e4d5097b04c7d448e8bbf530"
+    },
+    "amos_0239": {
+      "image": "amos22/imagesTr/amos_0239.nii.gz",
+      "image_sha256": "f627a1b4303ab0a1eed8039ccc84d381c032ef583c522b6f3e62b9ae72418c63",
+      "label_sha256": "420b8c69a607f4688a17d957fa049379aeb600609a4465ff1d850d48e44fc27e"
+    },
+    "amos_0249": {
+      "image": "amos22/imagesTr/amos_0249.nii.gz",
+      "image_sha256": "82125630c45c600479785294c15a378f2d21df911454825853f191114534915f",
+      "label_sha256": "351f3e01ab88d79021ae7a16f803c8c9f2a9b0668d1fb9558764936469ea8eb3"
+    },
+    "amos_0263": {
+      "image": "amos22/imagesTr/amos_0263.nii.gz",
+      "image_sha256": "bbb2a0e3200a79533279c4b106eb0b6a49348bbe8730636e4e9f9c168ea0751f",
+      "label_sha256": "5b352a746d1e899b3dcef6c48889309b26bf7a58e69ed298758746a67da5990e"
+    },
+    "amos_0264": {
+      "image": "amos22/imagesTr/amos_0264.nii.gz",
+      "image_sha256": "9484a9080a80bf3ef88847a0e334106cf94a17fdbd9ee5bd5364ddc30105e24b",
+      "label_sha256": "96612acaf994758b22f8f66aa4de33555b534be771fa6266e1c5ccb0f7ef93a1"
+    },
+    "amos_0276": {
+      "image": "amos22/imagesTr/amos_0276.nii.gz",
+      "image_sha256": "46ba32cb5bfb2ee5a50503c775e72f66b972198cae5e8b8691c9c20cf669d425",
+      "label_sha256": "720ec6f71804da8909ab3bb1c9b393f7308b84f76f6eae759fba93f9fb855c25"
+    },
+    "amos_0294": {
+      "image": "amos22/imagesTr/amos_0294.nii.gz",
+      "image_sha256": "933d89f0dd58d2e2c467cb94659afbeb7fc484f87dce66e4265464dbc7047ab5",
+      "label_sha256": "f27cfa64396cbc4036e2d21d9385d32de2167c32df76e4456e034691284b6940"
+    },
+    "amos_0332": {
+      "image": "amos22/imagesTr/amos_0332.nii.gz",
+      "image_sha256": "a2ebeef6eab4837915ae080641ded4254c846e3b2aebe0cc76e696be43763c45",
+      "label_sha256": "b39a857c1ec44aa5df43d80e5206a44fec2c5c9e0952c458e5e94e9fed440812"
+    },
+    "amos_0353": {
+      "image": "amos22/imagesTr/amos_0353.nii.gz",
+      "image_sha256": "10d481082e66ba4acc7105fbf8fa13ad53add92e65ffe0c169d2a3dce452bb79",
+      "label_sha256": "bcbdfc4b115e7cf1e02e4fde3fc4b4e1858e2703aacdddad1dce78d0d76f4acd"
+    },
+    "amos_0366": {
+      "image": "amos22/imagesTr/amos_0366.nii.gz",
+      "image_sha256": "702712981a65b4718cd2707bf24e22160db85807659095a3fdd9c5563b44e789",
+      "label_sha256": "ff4253bc7c4bea346be7bafdfe2f09a1863b2e4456c1ec82a9259b9929f556ec"
+    },
+    "amos_0379": {
+      "image": "amos22/imagesTr/amos_0379.nii.gz",
+      "image_sha256": "e90e21816f0f7e4e11de8a75ab2f6d56a922907800b83a705ae0e168c8734ab0",
+      "label_sha256": "0bcbcabc1440f7147aaf728de9deb2a9e24a8a9e252185e3123c7f272e065ac4"
+    },
+    "amos_0383": {
+      "image": "amos22/imagesTr/amos_0383.nii.gz",
+      "image_sha256": "16ed6b241baafdb9eba1eeb030065905aa36c20bd34a89088fd4355d5d0413ce",
+      "label_sha256": "b782184b70f4902e890ff425293cf87ba6e7003d733c6f74841bfd20919d7296"
+    },
+    "amos_0387": {
+      "image": "amos22/imagesTr/amos_0387.nii.gz",
+      "image_sha256": "352d38eaec09c7650f374e0d7bb01ccbde100cc345fd23e92c19edee985df82b",
+      "label_sha256": "b82a46133554e1261d6c674c06c9594416032ec284205574d621e499691c9de3"
+    },
+    "amos_0398": {
+      "image": "amos22/imagesTr/amos_0398.nii.gz",
+      "image_sha256": "737be546c58c248058e07167088cdec0f0de0ad2777f27e4b2d376e617c1e446",
+      "label_sha256": "cee2f6998b1180616b6820e89d8930d64d116d070d1029cded706ba692b02c6e"
+    },
+    "amos_0400": {
+      "image": "amos22/imagesTr/amos_0400.nii.gz",
+      "image_sha256": "10f043132e3cc40a6a12984e4624ac54b562d9d151eff1d39d7d1a3461287e39",
+      "label_sha256": "20c43d91a8453643387ab7aba1df9617b4adfc7ae913dee40dc0b8620a88eeea"
+    },
+    "amos_0404": {
+      "image": "amos22/imagesTr/amos_0404.nii.gz",
+      "image_sha256": "aaf09b72de9d35887b0663aa7a3385698a005cda1d62571b2d5f9f2462780ae9",
+      "label_sha256": "fe193d2ea1e6d07d190e3bf79176eff501a93f8584676847db17421fb73c2e0a"
+    },
+    "amos_0406": {
+      "image": "amos22/imagesTr/amos_0406.nii.gz",
+      "image_sha256": "a5263092e56b41c1a138effff5d2d1bcaea35f5a3910b53270a74370a70560c2",
+      "label_sha256": "d0a8f6a23ddbc3f9dfa15ac797b05e7464a2f5032c83c3060123dc1bf3a5f391"
+    },
+    "amos_0018": {
+      "image": "amos22/imagesVa/amos_0018.nii.gz",
+      "image_sha256": "1104d2d3ca471091b86a3cde9b7067004962475659e35e0f014a91fdbe3b1c8c",
+      "label_sha256": "9ac4f7dfee4eeff862567cbdfca2b6870cac04773b8719769064bb5cfa49df6b"
+    },
+    "amos_0029": {
+      "image": "amos22/imagesVa/amos_0029.nii.gz",
+      "image_sha256": "f093b83d9bb567bc65e0a432173c17f2227f87b6e8c3fc945078185ac940cfc8",
+      "label_sha256": "08d5d1dd4a2ca85ba72bc34e432597e5cabefcc3b93185ef66173f0666e2fafc"
+    },
+    "amos_0070": {
+      "image": "amos22/imagesVa/amos_0070.nii.gz",
+      "image_sha256": "d07cb22b8c061a07beb4039551c3bf5e3d6dbdb0f49226345b3329da4f05c4de",
+      "label_sha256": "a2f7534cb3e53c582bd73f68a926d83afd5839cd45a889693afbc89a219f107e"
+    },
+    "amos_0120": {
+      "image": "amos22/imagesVa/amos_0120.nii.gz",
+      "image_sha256": "16b9656c90cb2bf04fa24180940ea226696e654e93f4e5106bfc397815df6440",
+      "label_sha256": "6114d7ee349a60932a031f66404dba2b5ccf7bc70cb8625510c178acb2d7b2b2"
+    },
+    "amos_0128": {
+      "image": "amos22/imagesVa/amos_0128.nii.gz",
+      "image_sha256": "999962bf529a623f1bdaf8a5c254acdbb40846731a96a16ec8cb5d15a3c9653e",
+      "label_sha256": "74d62ce5db8fee8bbebbef3cad31358f2349a6f74e098c94eb88156c3e255c1e"
+    },
+    "amos_0136": {
+      "image": "amos22/imagesVa/amos_0136.nii.gz",
+      "image_sha256": "8d97bb8892042a2e79c74905b4077345042d961fa67eaeba32026de4a87b13f6",
+      "label_sha256": "2a75796e5c436220d97e3810ece4ea81d6b98abd87b30c3a27273d2f9cfa5815"
+    },
+    "amos_0167": {
+      "image": "amos22/imagesVa/amos_0167.nii.gz",
+      "image_sha256": "34f5ed227549a8bef6407365693c547f7f845f8c880a06f293b147ffb28a2b9d",
+      "label_sha256": "cbe610a414857071c01de45279f00235cb2efa221749984ad0db8bb4a0c07719"
+    },
+    "amos_0200": {
+      "image": "amos22/imagesVa/amos_0200.nii.gz",
+      "image_sha256": "d0be458272181ac9b635783d8783c36a1cfbfe9a3f6ae76df6a4e987c1fc6bd6",
+      "label_sha256": "3b169abecf4c99659582b59d6437f27cb4fe2df503d334c60b50ad9ee4177289"
+    },
+    "amos_0207": {
+      "image": "amos22/imagesVa/amos_0207.nii.gz",
+      "image_sha256": "828c2e8709a068c3017678ddd9553b84ca93b5cd47513a1b58efb4bac6c3c238",
+      "label_sha256": "3be3d4e096f42f069eb15a17b096f9116f904ec4b25b94462c441e347fda04d5"
+    },
+    "amos_0247": {
+      "image": "amos22/imagesVa/amos_0247.nii.gz",
+      "image_sha256": "f8fc210a81e4d473ed090aa7cf8c5e957e9e28ccb19820b48f53d2e8653dadbc",
+      "label_sha256": "eebb237a0c95e06486b64ab19efa8dd6f65f86fe9940930abacb351fed4b7c70"
+    },
+    "amos_0255": {
+      "image": "amos22/imagesVa/amos_0255.nii.gz",
+      "image_sha256": "55018760fd0cd7363d2f81b39a14c807f173df99bc6fb7ae4176d9d4d52220c8",
+      "label_sha256": "3e509c9622116176d75cc4b5b6a7b270b84e90970137a201e1f6ddd72e2e158c"
+    },
+    "amos_0278": {
+      "image": "amos22/imagesVa/amos_0278.nii.gz",
+      "image_sha256": "65929606522bfe79adcf76b3aa21a1782273b58524ad2ae2c2611cee27ed7044",
+      "label_sha256": "86d015a052479ad34459cb8e5045eb67a724992210fd5690322771ebcbed401b"
+    },
+    "amos_0292": {
+      "image": "amos22/imagesVa/amos_0292.nii.gz",
+      "image_sha256": "06df4c804c96cfa8b6289807afb25df3da48e84474cd3a945a8e06d34974306c",
+      "label_sha256": "64fc5bacb2c197715ea2c435feca36ebf53cb86dee540b815fdea153979d9ddc"
+    },
+    "amos_0304": {
+      "image": "amos22/imagesVa/amos_0304.nii.gz",
+      "image_sha256": "4315a3233f0755d446db33992e8fe1f2bb1e3882c7d8b562e5a51385ae4488a6",
+      "label_sha256": "7628cd82d35d77f34642af56db1ed7627f00bbc751ec773b20abe6cfed3d37b9"
+    },
+    "amos_0310": {
+      "image": "amos22/imagesVa/amos_0310.nii.gz",
+      "image_sha256": "dd49a148d4a0589e23c3b2c87795bb654f8d63c031fd14f41fa55143fe36731f",
+      "label_sha256": "0abb7431a6af24e4f33d26ccf3721edd4c7a8f5f3861f13e3b8c5c6e0380df48"
+    },
+    "amos_0313": {
+      "image": "amos22/imagesVa/amos_0313.nii.gz",
+      "image_sha256": "697d76f895bc9508a7aaea9ab1174942fb4468f9e7269822865fe3be9d69b22f",
+      "label_sha256": "bc48e997bdf9b267d102908b4006098df00a1133b8fac5159746a961d655fc77"
+    },
+    "amos_0316": {
+      "image": "amos22/imagesVa/amos_0316.nii.gz",
+      "image_sha256": "0ab2ab809373b80b28f91688a14196ade82e36724a7123e496aaccc04d1e8e5f",
+      "label_sha256": "4972d25bd0845667e8740ef9b75532066a08cdd79de6739a1a9dfb6d76ee70bf"
+    },
+    "amos_0334": {
+      "image": "amos22/imagesVa/amos_0334.nii.gz",
+      "image_sha256": "e82168a20959af66d9285197165689a76259cd3a81cfa174317de39c402e4b10",
+      "label_sha256": "b656be1da757a3a38c83dd45c65df1ed53d5eeb54a370800a094adc623704455"
+    },
+    "amos_0342": {
+      "image": "amos22/imagesVa/amos_0342.nii.gz",
+      "image_sha256": "976de57b5dfabc64ffdf53c50a582d7a64c48a387dfecf653139acdfb80c7603",
+      "label_sha256": "71c825a8551377827955e55160f05361c9da53f63fea5899aabfb768a8f2e74f"
+    },
+    "amos_0377": {
+      "image": "amos22/imagesVa/amos_0377.nii.gz",
+      "image_sha256": "51ec2dbc3018516ba4ee81daee732a351b474f51cd608499a65da71037dfd62a",
+      "label_sha256": "4825a8e03b06d4b1aa9bddb7dab6b47e44f8d9f3276e6a73d9c8c59f4e30f172"
+    }
+  }
+}

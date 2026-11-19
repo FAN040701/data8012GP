@@ -1,0 +1,16 @@
+{
+  "scope": "Sequential extension of the prior ±9 mm negative result; fixed before any outcomes from the current component or new40 experiments",
+  "question": "Does the previously observed wider-context loss persist under the same 40k training recipe as the narrow models, and does matching degradation augmentation change it?",
+  "new_arms": ["wide", "wide_aug"],
+  "seeds": [11, 22, 33],
+  "steps": 40000,
+  "context_offset_mm": 9,
+  "network": "Same 1,964,165-parameter planar U-Net and initialization as all other planar arms",
+  "training": "Same 80 fitting and 20 development patients, supervised slabs, patch/intensity schedule, loss, optimizer, 40k cosine schedule and f1 development selection. Augmentation factors 1/2/3 with probabilities .5/.25/.25. Only the neighbour offset changes from ±3 to ±9 mm.",
+  "evaluation": {"previous_width40": [1, 3], "new40_replication": [1, 3]},
+  "controls": "Existing 40k context/context_aug weights; new evaluations on previous_width40, cached evaluations on new40. Existing 20k narrow/wide predictions on previous_width40 reused for the budget sensitivity comparison.",
+  "statistics": "Patient-macro native-grid Dice, seed-average paired bootstrap 10000, seed 2026111509. All width/budget/augmentation contrasts shown; cohorts separate; intervals exploratory and unadjusted. 20k-to-40k also changes cosine schedule duration, so do not isolate update count as the sole cause.",
+  "time_guard": "Begin this complete six-fit extension only after all preceding GPU queues finish and at least 75 minutes remain. Otherwise record that the entire extension was not started; do not selectively run seeds based on outcomes.",
+  "deadline_utc": "2026-11-15T14:04:06+00:00",
+  "report_generated": false
+}

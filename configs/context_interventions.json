@@ -1,0 +1,31 @@
+{
+  "freeze_utc": "2026-11-15T07:14:27.981855+00:00",
+  "status": "Secondary diagnostic planned before new test outcomes; uses only the already evaluated original 40 patients",
+  "arms": [
+    "context",
+    "context_aug"
+  ],
+  "budget": 40000,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "factors": [
+    1,
+    3
+  ],
+  "modes": [
+    "repeat_centre",
+    "swap_neighbours"
+  ],
+  "control": "Intact predictions from the same frozen development-selected checkpoint",
+  "center_slice_unchanged": true,
+  "training_unchanged": true,
+  "fresh20_excluded": true,
+  "metric": "Native patient macro Dice, with paired patient bootstrap and seed ranges",
+  "mechanistic_scope": "Sensitivity of the fitted mapping to channel replacement/order. These interventions shift its input distribution, so they cannot by themselves establish training-time causal utility or information necessity.",
+  "execution_priority": "After the prespecified factorial evaluations and verification; run only within the same three-hour deadline",
+  "no_report_generation": true,
+  "between_arm_secondary": "Compare replacement/swap effects between context_aug and context using matched seeds and patients"
+}

@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-11-15T15:53:38.631785+00:00",
+  "scope": "Exploratory fixed connected-component intervention; motivated by prior spatial error maps before observing intervention outcomes.",
+  "population": "All 40 replication patients, all four primary arms, all six fixed training seeds, f3 best-development checkpoints",
+  "rule": "For each predicted organ separately retain its largest 6-connected component by voxel count; deterministic first raster component on ties; discard all other organ voxels to background. No reference labels used in selecting components.",
+  "outcomes": [
+    "Native Dice change",
+    "Removed false-positive and true-positive volumes",
+    "Change to context-by-augmentation interaction",
+    "All 40 patients and every organ, with prior illustrative cases retained"
+  ],
+  "limitation": "Counterfactual postprocessing localizes errors but cannot prove why training produced them; it may remove genuine fragmented organs or retain a larger wrong region. Not used to choose models or replace primary scores.",
+  "predictions_saved": "Reuse original immutable masks; save numerical counterfactual counts, no extra inference",
+  "report_generated": false
+}

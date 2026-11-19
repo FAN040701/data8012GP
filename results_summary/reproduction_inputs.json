@@ -1,0 +1,6 @@
+{
+  "fresh_preprocessed_patients": 200,
+  "identical_npy_files": 760,
+  "raw_image_label_hashes": 400,
+  "identical_geometry_records": 200
+}

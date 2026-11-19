@@ -1,0 +1,27 @@
+{
+  "freeze_utc": "2026-11-15T07:55:37.830661+00:00",
+  "status": "Secondary sensitivity diagnostic fixed before new evaluation outcomes",
+  "population": "original40_exploratory only; fresh20 excluded",
+  "arms": [
+    "repeat",
+    "context",
+    "repeat_aug",
+    "context_aug"
+  ],
+  "budget": 40000,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "factors": [
+    1,
+    3
+  ],
+  "excluded_region": "Native voxels within the superior 9 mm endcap, including the last plane",
+  "purpose": "The final coarse common-grid plane can lie beyond the original CT extent. Decimation extends its last retained plane; native preprocessing uses constant air outside the acquired domain. Check whether full-volume augmentation/context effects are concentrated at this endpoint.",
+  "primary_metrics_unchanged": true,
+  "no_input_or_model_changes": true,
+  "interpretation_limit": "Restricted-volume Dice is a sensitivity analysis, not a replacement for full-volume scores or proof that all boundary handling effects are absent.",
+  "report_generation": false
+}

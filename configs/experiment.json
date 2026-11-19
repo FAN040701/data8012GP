@@ -1,0 +1,12 @@
+{
+  "steps": 20000,
+  "patch": [32, 128, 128],
+  "width": 16,
+  "lr": 0.0003,
+  "val_every": 2000,
+  "seeds": [11, 22, 33],
+  "include_augmentation": true,
+  "frozen_before_test_evaluation": true,
+  "freeze_utc": "2026-11-14T19:25:00Z",
+  "budget_reason": "Fitting-only 2000-update pilots completed in 34.01 s (repeat) and 38.03 s (3D), after startup, with fitting-case Dice 0.9384 and 0.9296. Twenty thousand updates, three seeds and the preplanned augmentation arm fit comfortably in the remaining wall-clock budget. No test performance used."
+}
