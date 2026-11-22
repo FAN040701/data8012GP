@@ -30,3 +30,27 @@ The fit and evaluation scripts write weights, native predictions and per-organ r
 A clean build reproduced all 760 input and label arrays for the 200 cases in the release manifest. Independent seed-11 fits of all three architectures and one asymmetric layout changed mean degraded-input Dice by +0.05 to +1.03 percentage points. The training code uses cuDNN autotuning and mixed precision. [Refit measurements](results_summary/reproduction_models.json)
 
 Running the portable evaluator on two frozen adjacent-slice controls (plain, seed 66 and augmented, seed 11) reproduced all 640 organ Dice scores and predicted voxel counts. [Control evaluation checks](results_summary/reproduction_controls.json)
+
+## Same-seed, channel-order and capacity controls
+
+Use the prepared checkout and the original architecture, control and mirrored-layout results from the README. The commands below create separate fits in `results/review_controls/`. The factorial study repeats seed 11 twice, with four arms per repetition. The capacity study trains 3D width 9 at seeds 11, 22 and 33. The swap study recomputes ordinary and exchanged-channel predictions for both frozen mirrors, plain and augmented, on the 40 replication cases at f3. The 3D comparison uses standard input on the original 40 cases.
+
+~~~bash
+python src/review_refits.py factorial
+python src/review_refits.py capacity
+python src/review_evaluate.py factorial
+python src/review_evaluate.py factorial --checkpoint last
+python src/review_evaluate.py capacity
+python src/review_evaluate.py swap
+python src/proposal_latency.py
+python src/review_latency.py
+python src/review_analysis.py all
+~~~
+
+Run the timing scripts on an otherwise idle H100. GPU-grid timing starts with preprocessed intensities in device memory and ends with model-grid probabilities in device memory. Follow the protocol and see the aggregate results in [the review control tables](results_summary/review_controls/). Patient-level records are produced by the evaluation scripts.
+
+The two report figures for model capacity and channel order can also be rebuilt directly from the public aggregate tables.
+
+~~~bash
+python src/course_figures.py review
+~~~

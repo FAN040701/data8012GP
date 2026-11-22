@@ -180,12 +180,70 @@ def final_plots():
     save(fig,'error_bands')
 
 
+def interval_point(ax, row, y, color, marker='o'):
+    ax.plot([row.ci_low, row.ci_high], [y, y], color=color, lw=1.7)
+    ax.plot(row['mean'], y, marker=marker, color=color, markersize=4.5)
+
+
+def review_plots(tables):
+    controls = tables / 'review_controls'
+    wide = pd.read_csv(tables / 'architecture_pairs.csv').query(
+        "contrast == '3d minus 2p5d' and factor == 1")
+    narrow = pd.read_csv(controls / 'capacity_contrasts.csv').query(
+        "contrast == '3d_w9 minus 2p5d_w16'")
+    organs = ['spleen', 'right_kidney', 'left_kidney', 'liver']
+    fig, axes = plt.subplots(1, 2, figsize=(7.1, 2.4), layout='constrained')
+    for ax, metric, label in zip(axes, ['dice', 'hd95_mm'], ['Dice difference (points)', 'HD95 difference (mm)']):
+        ax.axvline(0, color=GREY, ls='--', lw=.8)
+        full = wide[wide.metric == metric].set_index('organ')
+        matched = narrow[narrow.metric == metric].set_index('organ')
+        for i, organ in enumerate(organs):
+            row = full.loc[organ, ['mean','ci_low','ci_high']] * (100 if metric == 'dice' else 1)
+            interval_point(ax, row, 3-i+.13, TEAL)
+            interval_point(ax, matched.loc[organ], 3-i-.13, RUST, 's')
+        ax.set_yticks(range(3,-1,-1), NAMES if ax is axes[0] else ['']*4)
+        ax.set_ylim(-.5,3.5)
+        ax.set_xlabel(label)
+    handles = [Line2D([], [], color=TEAL, marker='o', markersize=4, label='3D, 5.89M parameters'),
+               Line2D([], [], color=RUST, marker='s', markersize=4, label='3D, 1.86M parameters')]
+    fig.legend(handles=handles, loc='outside upper center', ncols=2, frameon=False)
+    save(fig, 'architectures')
+
+    original = pd.read_csv(tables / 'layout_contrasts.csv').query(
+        "condition == 'f3' and contrast == 'direction_by_augmentation'").set_index(['cohort','checkpoint','group'])
+    swapped = pd.read_csv(controls / 'channel_swap.csv').query("arm == 'all'").set_index('measure')
+    fig, (left, right) = plt.subplots(1, 2, figsize=(7.3, 2.65), layout='constrained')
+    groups = [('replication','best','first3'), ('replication','best','new3'), ('replication','best','all6'),
+              ('replication','last','all6'), ('original','best','first3')]
+    for i, key in enumerate(groups):
+        row = original.loc[key, ['mean','ci_low','ci_high']] * 100
+        interval_point(left, row, 4-i, RUST if i == 1 else TEAL, 'D' if i == 1 else 'o')
+    left.set_yticks(range(4,-1,-1), ['First three seeds','Additional three','All six seeds','Last update (six)','Original (first three)'])
+    left.set_ylim(-.6,4.6)
+    left.set_title('Mirror interaction across fits')
+    measures = ['ordinary_dice mirror interaction (pp)', 'dice mirror interaction (pp)', 'swap-induced interaction change (pp)']
+    for i, measure in enumerate(measures):
+        interval_point(right, swapped.loc[measure], 2-i, RUST if i == 2 else TEAL, 's' if i == 2 else 'o')
+    right.set_yticks([2,1,0], ['Trained order', 'Swapped order', 'Paired change'])
+    right.set_ylim(-.5,2.5)
+    right.set_title('Frozen models, additional seeds')
+    for ax in (left, right):
+        ax.axvline(0, color=GREY, ls='--', lw=.8, zorder=0)
+        ax.set_xlabel('Dice points')
+    save(fig, 'direction')
+
+
 if __name__=='__main__':
     ap=argparse.ArgumentParser()
-    ap.add_argument('stage',choices=['base','final'])
+    ap.add_argument('stage',choices=['base','final','review'])
+    ap.add_argument('--tables', type=Path, default=ROOT/'results_summary')
+    ap.add_argument('--output', type=Path, default=OUT)
     args=ap.parse_args()
+    OUT = args.output
     OUT.mkdir(parents=True,exist_ok=True)
     if args.stage=='base':
         image_panels(); baselines(); factorial(); geometry(); errors()
-    else:
+    elif args.stage == "final":
         final_plots()
+    else:
+        review_plots(args.tables)

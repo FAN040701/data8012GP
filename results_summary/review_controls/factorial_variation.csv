@@ -1,0 +1,2 @@
+seed,patients,blocks,positive_blocks,mean_pp,sd_pp,min_pp,max_pp,conditional_t_low_pp,conditional_t_high_pp
+11,40,3,3,0.48783593460436797,0.4880870612238344,0.015624348855219595,0.9903833590745414,-0.7246395407991513,1.700311410007887

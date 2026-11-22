@@ -4,7 +4,9 @@ A DATA8012 course project using AMOS CT to segment the liver, spleen and both ki
 
 ## Results
 
-On the original 40 scans, standard-input mean Dice was **91.96%** for 2D, **91.93%** for adjacent-slice 2.5D and **93.64%** for 3D. On a separate 40 scans under threefold axial downsampling, degradation augmentation increased the gain from adjacent sections by **0.94 Dice points** (95% interval **0.31 to 1.59**). The development-selected asymmetric layout (−3, 0, +9 mm) gained **0.08 points** over immediate adjacency across six seeds (−0.26 to +0.43). The mirror-direction interaction was **+0.37 points** in the three additional seeds (−0.32 to +1.07). [Aggregate tables](results_summary/)
+On the original 40 scans, standard-input mean Dice was **91.96%** for 2D, **91.93%** for adjacent-slice 2.5D and **93.64%** for 3D. Reducing the 3D network to 1.86 million parameters (2.5D has 1.96 million) reduced its lead to **0.77 points** (0.28 to 1.33).
+
+On a separate 40 scans under threefold axial downsampling, degradation augmentation increased the gain from adjacent sections by **0.94 Dice points** (95% interval **0.31 to 1.59**). Across three fits at seed 11 the interaction ranged from +0.02 to +0.99 points. Replacing only that seed gave six-seed means of 0.94–1.10 points. The development-selected asymmetric layout (−3, 0, +9 mm) differed from immediate adjacency by **+0.08 points** across six seeds (−0.26 to +0.43). The mirror-direction interaction was **+0.37 points** in the three additional seeds (−0.32 to +1.07). With the same weights and slices, exchanging the outer channels shifted that interaction to **−2.06 points**. [Aggregate tables](results_summary/) · [Refits, channel order and capacity](results_summary/review_controls/)
 
 ## Reproduce
 
